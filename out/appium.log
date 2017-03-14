@@ -1,0 +1,1291 @@
+[Appium] Welcome to Appium v1.6.3 (REV d9e105042ea59fa58ff105957e196685900abd46)
+[Appium] Appium REST http interface listener started on 0.0.0.0:4723
+[HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"appium-version":"1.6.3","platformName":"iOS","platformVersion":"10.2","deviceName":"iPhone 7","autoAcceptAlerts":true,"automationName":"xcuitest","newCommandTimeout":3600,"noReset":true,"app":"/Users/showjoy/Library/Developer/Xcode/DerivedData/DaRenShop-aisxxdloxwxcqmdjhesjxorxojoc/Build/Products/Debug-iphonesimulator/DaRenShop.app"}}
+[debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"appium-version":"1.6.3","platformName":"iOS","platformVersion":"10.2","deviceName":"iPhone 7","autoAcceptAlerts":true,"automationName":"xcuitest","newCommandTimeout":3600,"noReset":true,"app":"/Users/showjoy/Library/Developer/Xcode/DerivedData/DaRenShop-aisxxdloxwxcqmdjhesjxorxojoc/Build/Products/Debug-iphonesimulator/DaRenShop.app"},null,null,null,null]
+[Appium] Creating new XCUITestDriver session
+[Appium] Capabilities:
+[Appium]   appium-version: '1.6.3'
+[Appium]   platformName: 'iOS'
+[Appium]   platformVersion: '10.2'
+[Appium]   deviceName: 'iPhone 7'
+[Appium]   autoAcceptAlerts: true
+[Appium]   automationName: 'xcuitest'
+[Appium]   newCommandTimeout: 3600
+[Appium]   noReset: true
+[Appium]   app: '/Users/showjoy/Library/Developer/Xcode/DerivedData/DaRenShop-aisxxdloxwxcqmdjhesjxorxojoc/Build/Products/Debug-iphonesimulator/DaRenShop.app'
+[debug] [XCUITest] XCUITestDriver version: 2.4.2
+[BaseDriver] The following capabilities were provided, but are not recognized by appium: appium-version.
+[BaseDriver] Session created with session id: 6a537146-c28a-469c-b477-30de85c20936
+[debug] [XCUITest] Xcode version set to '8.2.1'
+[debug] [XCUITest] iOS SDK Version set to '10.2'
+[iOSSim] Constructing iOS simulator for Xcode version 8.2.1 with udid 'E226CF84-CBF4-490C-A17F-6D384D47DF7A'
+[XCUITest] Determining device to run tests on: udid: 'E226CF84-CBF4-490C-A17F-6D384D47DF7A', real device: false
+[BaseDriver] Using local app '/Users/showjoy/Library/Developer/Xcode/DerivedData/DaRenShop-aisxxdloxwxcqmdjhesjxorxojoc/Build/Products/Debug-iphonesimulator/DaRenShop.app'
+[debug] [XCUITest] Checking whether app '/Users/showjoy/Library/Developer/Xcode/DerivedData/DaRenShop-aisxxdloxwxcqmdjhesjxorxojoc/Build/Products/Debug-iphonesimulator/DaRenShop.app' is actually present
+[debug] [XCUITest] App is present
+[debug] [ios-app-utils] Getting bundle ID from app '/Users/showjoy/Library/Developer/Xcode/DerivedData/DaRenShop-aisxxdloxwxcqmdjhesjxorxojoc/Build/Products/Debug-iphonesimulator/DaRenShop.app': 'com.showjoy.shop'
+[debug] [iOSLog] Starting iOS 10.2 simulator log capture
+[debug] [iOSLog] System log path: /Users/showjoy/Library/Logs/CoreSimulator/E226CF84-CBF4-490C-A17F-6D384D47DF7A/system.log
+[XCUITest] Setting up simulator
+[debug] [iOS] No reason to set locale
+[debug] [iOS] No iOS / app preferences to set
+[XCUITest] Simulator with udid 'E226CF84-CBF4-490C-A17F-6D384D47DF7A' already booted
+[debug] [XCUITest] Installing app '/Users/showjoy/Library/Developer/Xcode/DerivedData/DaRenShop-aisxxdloxwxcqmdjhesjxorxojoc/Build/Products/Debug-iphonesimulator/DaRenShop.app' on device
+[XCUITest] Using WDA path: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent'
+[XCUITest] Using WDA agent: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj'
+[XCUITest] Launching WebDriverAgent on the device
+[debug] [XCUITest] Carthage found: /usr/local/bin/carthage
+[debug] [XCUITest] Killing hanging processes
+[debug] [XCUITest] Beginning test with command 'xcodebuild build-for-testing test-without-building -project /usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj -scheme WebDriverAgentRunner -destination id=E226CF84-CBF4-490C-A17F-6D384D47DF7A -configuration Debug' in directory '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent'
+[XCUITest] Waiting for WebDriverAgent to start on device
+[debug] [XCUITest] Log file for xcodebuild test: /Users/showjoy/Library/Developer/Xcode/DerivedData/WebDriverAgent-brdadhpuduowllgivnnvuygpwhzy/Logs/Test/2D53CE71-84A5-4A95-9A63-F3AF01C5971C/Session-WebDriverAgentRunner-2017-03-14_155805-t3VJIh.log
+[debug] [WebDriverAgent] Sim: Mar 14 15:58:05 yuxius-MB CoreSimulatorBridge[29774]: Requesting installation of file:///Users/showjoy/Library/Developer/Xcode/DerivedData/WebDriverAgent-brdadhpuduowllgivnnvuygpwhzy/Build/Products/Debug-iphonesimulator/WebDriverAgentRunner-Runner.app/ with options: {
+[debug] [WebDriverAgent] Sim: 	    CFBundleIdentifier = "com.apple.test.WebDriverAgentRunner-Runner";
+[debug] [WebDriverAgent] Sim: 	    PackageType = Developer;
+[debug] [WebDriverAgent] Sim: 	    SimulatorRootPath = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk";
+[debug] [WebDriverAgent] Sim: 	    SimulatorUserPath = "/Users/showjoy/Library/Developer/CoreSimulator/Devices/E226CF84-CBF4-490C-A17F-6D384D47DF7A/data";
+[debug] [WebDriverAgent] Sim: 	}
+[debug] [WebDriverAgent] Sim: Mar 14 15:58:10 yuxius-MB CoreSimulatorBridge[29774]: Requesting launch of com.apple.test.WebDriverAgentRunner-Runner with options: {
+[debug] [WebDriverAgent] Sim: 	    arguments =     (
+[debug] [WebDriverAgent] Sim: 	        "-NSTreatUnknownArgumentsAsOpen",
+[debug] [WebDriverAgent] Sim: 	        NO,
+[debug] [WebDriverAgent] Sim: 	        "-ApplePersistenceIgnoreState",
+[debug] [WebDriverAgent] Sim: 	        YES
+[debug] [WebDriverAgent] Sim: 	    );
+[debug] [WebDriverAgent] Sim: 	    environment =     {
+[debug] [WebDriverAgent] Sim: 	        "DTX_CONNECTION_SERVICES_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/Developer/Library/PrivateFrameworks/DTXConnectionServices.framework";
+[debug] [WebDriverAgent] Sim: 	        "DYLD_FRAMEWORK_PATH" = "/Users/showjoy/Library/Developer/Xcode/DerivedData/WebDriverAgent-brdadhpuduowllgivnnvuygpwhzy/Build/Products/Debug-iphonesimulator:/Users/showjoy/Library/Developer/Xcode/DerivedData/WebDriverAgent-brdadhpuduowllgivnnvuygpwhzy/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks";
+[debug] [WebDriverAgent] Sim: 	        "DYLD_LIBRARY_PATH" = "/Users/showjoy/Library/Developer/Xcode/DerivedData/WebDriverAgent-brdadhpuduowllgivnnvuygpwhzy/Build/Products/Debug-iphonesimulator:/Users/showjoy/Library/Developer/Xcode/DerivedData/WebDriverAgent-brdadhpuduowllgivnnvuygpwhzy/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks";
+[debug] [WebDriverAgent] Sim: 	        NSUnbufferedIO = YES;
+[debug] [WebDriverAgent] Sim: 	        "OS_ACTIVITY_DT_MODE" = YES;
+[debug] [WebDriverAgent] Sim: 	        "XCODE_DBG_XPC_EXCLUSIONS" = "com.apple.dt.xctestSymbolicator";
+[debug] [WebDriverAgent] Sim: 	        XCTestConfigurationFilePath = "/var/folders/h6/nflk9jrs5xbbn5jmh79f63ww0000gn/T/com.apple.dt.XCTest/E241038F-53DB-4A38-81BF-A7C7B416F1AC/remote-container/tmp/WebDriverAgentRunner-E241038F-53DB-4A38-81BF-A7C7B416F1AC.xctestconfiguration";
+[debug] [WebDriverAgent] Sim: 	        "__XCODE_BUILT_PRODUCTS_DIR_PATHS" = "/Users/showjoy/Library/Developer/Xcode/DerivedData/WebDriverAgent-brdadhpuduowllgivnnvuygpwhzy/Build/Products/Debug-iphonesimulator";
+[debug] [WebDriverAgent] Sim: 	        "__XPC_DYLD_FRAMEWORK_PATH" = "/Users/showjoy/Library/Developer/Xcode/DerivedData/WebDriverAgent-brdadhpuduowllgivnnvuygpwhzy/Build/Products/Debug-iphonesimulator";
+[debug] [WebDriverAgent] Sim: 	        "__XPC_DYLD_LIBRARY_PATH" = "/Users/showjoy/Library/Developer/Xcode/DerivedData/WebDriverAgent-brdadhpuduowllgivnnvuygpwhzy/Build/Products/Debug-iphonesimulator";
+[debug] [WebDriverAgent] Sim: 	    };
+[debug] [WebDriverAgent] Sim: 	    stderr = "/dev/ttys003";
+[debug] [WebDriverAgent] Sim: 	    stdout = "/dev/ttys003";
+[debug] [WebDriverAgent] Sim: 	    "wait_for_debugger" = 0;
+[debug] [WebDriverAgent] Sim: 	}
+[debug] [WebDriverAgent] Sim: Mar 14 15:58:10 yuxius-MB CoreSimulatorBridge[29774]: Beginning launch sequence for bundle 'com.apple.test.WebDriverAgentRunner-Runner'
+[debug] [WebDriverAgent] Sim: 		retryTimeout: 120.000000 (default write com.apple.CoreSimulatorBridge LaunchRetryTimeout <value>)
+[debug] [WebDriverAgent] Sim: 		bootTimeout: 300.000000 (default write com.apple.CoreSimulatorBridge BootRetryTimeout <value>)
+[debug] [WebDriverAgent] Sim: 		bootLeeway: 120.000000 (default write com.apple.CoreSimulatorBridge BootLeeway <value>)
+[debug] [WebDriverAgent] Sim: 		Note: Use 'xcrun simctl spawn booted defaults write <domain> <key> <value>' to modify defaults in the booted Simulator device.
+[debug] [WebDriverAgent] Sim: 	Simulator booted at: 2017-03-14 06:34:24 +0000
+[debug] [WebDriverAgent] Sim: 	Current time: 2017-03-14 07:58:10 +0000
+[debug] [WebDriverAgent] Sim: 	Within boot leeway: NO
+[debug] [WebDriverAgent] Sim: Mar 14 15:58:10 yuxius-MB CoreSimulatorBridge[29774]: Launch attempt #0 for bundle 'com.apple.test.WebDriverAgentRunner-Runner', have been trying to launch for 0 seconds. Modern launch services = YES
+[debug] [WebDriverAgent] Sim: Mar 14 15:58:10 yuxius-MB CoreSimulatorBridge[29774]: Got LSBundleProxy for 'com.apple.test.WebDriverAgentRunner-Runner', sequenceNumber 776, cacheGUID 41ED0039-512D-403D-B546-BDD1A3C95F96
+[debug] [WebDriverAgent] Sim: Mar 14 15:58:10 yuxius-MB CoreSimulatorBridge[29774]: [Common] [FBSSystemService][0xbbb7] Sending request to open "com.apple.test.WebDriverAgentRunner-Runner"
+[debug] [WebDriverAgent] Sim: Mar 14 15:58:10 yuxius-MB CoreSimulatorBridge[29774]: [Common] [FBSSystemService][0xbbb7] Request successful: <FBSProcessHandle: 0x7f980d60fd20; XCTRunner:31558; valid: YES>
+[debug] [WebDriverAgent] Sim: Mar 14 15:58:10 yuxius-MB CoreSimulatorBridge[29774]: Launch successful for 'com.apple.test.WebDriverAgentRunner-Runner'
+[debug] [WebDriverAgent] Sim: Mar 14 15:58:11 yuxius-MB XCTRunner[31558]: assertion failed: 16C67 14C89: libxpc.dylib + 62677 [0339A402-6531-30E9-8BC2-589C463CD6D6]: 0x7d
+[debug] [WebDriverAgent] Sim: Mar 14 15:58:11 yuxius-MB XCTRunner[31558]: Running tests...
+[debug] [WebDriverAgent] Sim: Mar 14 15:58:14 yuxius-MB XCTRunner[31558]: Continuing to run tests in the background with task ID 1
+[debug] [WebDriverAgent] Sim: Mar 14 15:58:15 yuxius-MB XCTRunner[31558]: Built at Feb 21 2017 21:31:06
+[XCUITest] Detected that WebDriverAgent is running at url 'http://10.1.2.59:8100'
+[debug] [WebDriverAgent] Sim: Mar 14 15:58:15 yuxius-MB XCTRunner[31558]: ServerURLHere->http://10.1.2.59:8100<-ServerURLHere
+[XCUITest] WebDriverAgent started at url 'http://10.1.2.59:8100'
+[debug] [JSONWP Proxy] Proxying [POST /session] to [POST http://localhost:8100/session] with body: {"desiredCapabilities":{"bundleId":"com.showjoy.shop","arguments":[],"environment":{},"shouldWaitForQuiescence":true}}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":{"sessionId":"4C47DDE5-DE39-4B3C-88CF-842BB7B124EE","capabilities":{"device":"iphone","browserName":"达人店","sdkVersion":"10.2","CFBundleIdentifier":"com.showjoy.shop"}},"sessionId":"4C47DDE5-DE39-4B3C-88CF-842BB7B124EE","status":0}
+[debug] [XCUITest] Setting initial orientation to 'PORTRAIT'
+[debug] [JSONWP Proxy] Proxying [POST /orientation] to [POST http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/orientation] with body: {"orientation":"PORTRAIT"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":{},"sessionId":"4C47DDE5-DE39-4B3C-88CF-842BB7B124EE","status":0}
+[Appium] New XCUITestDriver session created successfully, session 6a537146-c28a-469c-b477-30de85c20936 added to master session list
+[debug] [MJSONWP] Responding to client with driver.createSession() result: {"webStorageEnabled":false,"locationContextEnabled":false,"browserName":"","platform":"MAC","javascriptEnabled":true,"databaseEnabled":false,"takesScreenshot":true,"networkConnectionEnabled":false,"appium-version":"1.6.3","platformName":"iOS","platformVersion":"10.2","deviceName":"iPhone 7","autoAcceptAlerts":true,"automationName":"xcuitest","newCommandTimeout":3600,"noReset":true,"app":"/Users/showjoy/Library/Developer/Xcode/DerivedData/DaRenShop-aisxxdloxwxcqmdjhesjxorxojoc/Build/Products/Debug-iphonesimulator/DaRenShop.app"}
+[HTTP] <-- POST /wd/hub/session 200 24254 ms - 605 
+[HTTP] --> POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/elements {"using":"id","value":"Allow"}
+[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["id","Allow","6a537146-c28a-469c-b477-30de85c20936"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/elements] with body: {"using":"id","value":"Allow"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":[],"sessionId":"4C47DDE5-DE39-4B3C-88CF-842BB7B124EE","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/elements 200 450 ms - 74 
+[HTTP] --> POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/elements {"using":"id","value":"Allow"}
+[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["id","Allow","6a537146-c28a-469c-b477-30de85c20936"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/elements] with body: {"using":"id","value":"Allow"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":[],"sessionId":"4C47DDE5-DE39-4B3C-88CF-842BB7B124EE","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/elements 200 386 ms - 74 
+[HTTP] --> POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/elements {"using":"id","value":"Allow"}
+[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["id","Allow","6a537146-c28a-469c-b477-30de85c20936"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/elements] with body: {"using":"id","value":"Allow"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":[],"sessionId":"4C47DDE5-DE39-4B3C-88CF-842BB7B124EE","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/elements 200 492 ms - 74 
+[HTTP] --> POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/elements {"using":"id","value":"“达人店” Would Like to Send You Notifications"}
+[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["id","“达人店” Would Like to Send You Notifications","6a537146-c28a-469c-b477-30de85c20936"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/elements] with body: {"using":"id","value":"“达人店” Would Like to Send You Notifications"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":[],"sessionId":"4C47DDE5-DE39-4B3C-88CF-842BB7B124EE","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/elements 200 332 ms - 74 
+[HTTP] --> POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/elements {"using":"id","value":"“达人店” Would Like to Send You Notifications"}
+[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["id","“达人店” Would Like to Send You Notifications","6a537146-c28a-469c-b477-30de85c20936"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/elements] with body: {"using":"id","value":"“达人店” Would Like to Send You Notifications"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":[],"sessionId":"4C47DDE5-DE39-4B3C-88CF-842BB7B124EE","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/elements 200 325 ms - 74 
+[HTTP] --> POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/elements {"using":"id","value":"“达人店” Would Like to Send You Notifications"}
+[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["id","“达人店” Would Like to Send You Notifications","6a537146-c28a-469c-b477-30de85c20936"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/elements] with body: {"using":"id","value":"“达人店” Would Like to Send You Notifications"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":[],"sessionId":"4C47DDE5-DE39-4B3C-88CF-842BB7B124EE","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/elements 200 397 ms - 74 
+[HTTP] --> POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/elements {"using":"id","value":"“达人店” Would Like to Send You Notifications"}
+[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["id","“达人店” Would Like to Send You Notifications","6a537146-c28a-469c-b477-30de85c20936"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/elements] with body: {"using":"id","value":"“达人店” Would Like to Send You Notifications"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":[],"sessionId":"4C47DDE5-DE39-4B3C-88CF-842BB7B124EE","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/elements 200 476 ms - 74 
+[HTTP] --> POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/elements {"using":"xpath","value":"//XCUIElementTypeOther/XCUIElementTypeTextField[1]"}
+[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["xpath","//XCUIElementTypeOther/XCUIElementTypeTextField[1]","6a537146-c28a-469c-b477-30de85c20936"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/elements] with body: {"using":"xpath","value":"//XCUIElementTypeOther/XCUIElementTypeTextField[1]"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":[],"sessionId":"4C47DDE5-DE39-4B3C-88CF-842BB7B124EE","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/elements 200 456 ms - 74 
+[HTTP] --> POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/elements {"using":"xpath","value":"//XCUIElementTypeOther/XCUIElementTypeTextField[1]"}
+[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["xpath","//XCUIElementTypeOther/XCUIElementTypeTextField[1]","6a537146-c28a-469c-b477-30de85c20936"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/elements] with body: {"using":"xpath","value":"//XCUIElementTypeOther/XCUIElementTypeTextField[1]"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":[],"sessionId":"4C47DDE5-DE39-4B3C-88CF-842BB7B124EE","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/elements 200 557 ms - 74 
+[HTTP] --> POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/elements {"using":"xpath","value":"//XCUIElementTypeOther/XCUIElementTypeTextField[1]"}
+[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["xpath","//XCUIElementTypeOther/XCUIElementTypeTextField[1]","6a537146-c28a-469c-b477-30de85c20936"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/elements] with body: {"using":"xpath","value":"//XCUIElementTypeOther/XCUIElementTypeTextField[1]"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":[],"sessionId":"4C47DDE5-DE39-4B3C-88CF-842BB7B124EE","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/elements 200 650 ms - 74 
+[HTTP] --> POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/elements {"using":"name","value":"完成"}
+[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["name","完成","6a537146-c28a-469c-b477-30de85c20936"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/elements] with body: {"using":"name","value":"完成"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":[],"sessionId":"4C47DDE5-DE39-4B3C-88CF-842BB7B124EE","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/elements 200 390 ms - 74 
+[HTTP] --> POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/elements {"using":"name","value":"完成"}
+[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["name","完成","6a537146-c28a-469c-b477-30de85c20936"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/elements] with body: {"using":"name","value":"完成"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":[],"sessionId":"4C47DDE5-DE39-4B3C-88CF-842BB7B124EE","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/elements 200 307 ms - 74 
+[HTTP] --> POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/elements {"using":"name","value":"完成"}
+[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["name","完成","6a537146-c28a-469c-b477-30de85c20936"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/elements] with body: {"using":"name","value":"完成"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":[],"sessionId":"4C47DDE5-DE39-4B3C-88CF-842BB7B124EE","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/elements 200 426 ms - 74 
+[HTTP] --> POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/elements {"using":"name","value":"完成"}
+[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["name","完成","6a537146-c28a-469c-b477-30de85c20936"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/elements] with body: {"using":"name","value":"完成"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":[],"sessionId":"4C47DDE5-DE39-4B3C-88CF-842BB7B124EE","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/elements 200 314 ms - 74 
+[HTTP] --> POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/elements {"using":"xpath","value":"//XCUIElementTypeOther/XCUIElementTypeTextField[2]"}
+[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["xpath","//XCUIElementTypeOther/XCUIElementTypeTextField[2]","6a537146-c28a-469c-b477-30de85c20936"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/elements] with body: {"using":"xpath","value":"//XCUIElementTypeOther/XCUIElementTypeTextField[2]"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":[],"sessionId":"4C47DDE5-DE39-4B3C-88CF-842BB7B124EE","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/elements 200 558 ms - 74 
+[HTTP] --> POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/elements {"using":"xpath","value":"//XCUIElementTypeOther/XCUIElementTypeTextField[2]"}
+[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["xpath","//XCUIElementTypeOther/XCUIElementTypeTextField[2]","6a537146-c28a-469c-b477-30de85c20936"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/elements] with body: {"using":"xpath","value":"//XCUIElementTypeOther/XCUIElementTypeTextField[2]"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":[],"sessionId":"4C47DDE5-DE39-4B3C-88CF-842BB7B124EE","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/elements 200 433 ms - 74 
+[HTTP] --> POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/elements {"using":"xpath","value":"//XCUIElementTypeOther/XCUIElementTypeTextField[2]"}
+[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["xpath","//XCUIElementTypeOther/XCUIElementTypeTextField[2]","6a537146-c28a-469c-b477-30de85c20936"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/elements] with body: {"using":"xpath","value":"//XCUIElementTypeOther/XCUIElementTypeTextField[2]"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":[],"sessionId":"4C47DDE5-DE39-4B3C-88CF-842BB7B124EE","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/elements 200 517 ms - 74 
+[HTTP] --> POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/elements {"using":"name","value":"完成"}
+[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["name","完成","6a537146-c28a-469c-b477-30de85c20936"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/elements] with body: {"using":"name","value":"完成"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":[],"sessionId":"4C47DDE5-DE39-4B3C-88CF-842BB7B124EE","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/elements 200 278 ms - 74 
+[HTTP] --> POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/elements {"using":"name","value":"完成"}
+[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["name","完成","6a537146-c28a-469c-b477-30de85c20936"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/elements] with body: {"using":"name","value":"完成"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":[],"sessionId":"4C47DDE5-DE39-4B3C-88CF-842BB7B124EE","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/elements 200 379 ms - 74 
+[HTTP] --> POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/elements {"using":"name","value":"完成"}
+[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["name","完成","6a537146-c28a-469c-b477-30de85c20936"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/elements] with body: {"using":"name","value":"完成"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":[],"sessionId":"4C47DDE5-DE39-4B3C-88CF-842BB7B124EE","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/elements 200 347 ms - 74 
+[HTTP] --> POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/elements {"using":"name","value":"完成"}
+[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["name","完成","6a537146-c28a-469c-b477-30de85c20936"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/elements] with body: {"using":"name","value":"完成"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":[],"sessionId":"4C47DDE5-DE39-4B3C-88CF-842BB7B124EE","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/elements 200 434 ms - 74 
+[HTTP] --> POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/elements {"using":"name","value":"登录"}
+[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["name","登录","6a537146-c28a-469c-b477-30de85c20936"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/elements] with body: {"using":"name","value":"登录"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":[],"sessionId":"4C47DDE5-DE39-4B3C-88CF-842BB7B124EE","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/elements 200 413 ms - 74 
+[HTTP] --> POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/elements {"using":"name","value":"登录"}
+[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["name","登录","6a537146-c28a-469c-b477-30de85c20936"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/elements] with body: {"using":"name","value":"登录"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":[],"sessionId":"4C47DDE5-DE39-4B3C-88CF-842BB7B124EE","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/elements 200 258 ms - 74 
+[HTTP] --> POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/elements {"using":"name","value":"登录"}
+[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["name","登录","6a537146-c28a-469c-b477-30de85c20936"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/elements] with body: {"using":"name","value":"登录"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":[],"sessionId":"4C47DDE5-DE39-4B3C-88CF-842BB7B124EE","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/elements 200 282 ms - 74 
+[HTTP] --> POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/elements {"using":"name","value":"登录"}
+[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["name","登录","6a537146-c28a-469c-b477-30de85c20936"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/elements] with body: {"using":"name","value":"登录"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":[],"sessionId":"4C47DDE5-DE39-4B3C-88CF-842BB7B124EE","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/elements 200 335 ms - 74 
+[HTTP] --> POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/elements {"using":"xpath","value":"//XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther[4]"}
+[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["xpath","//XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther[4]","6a537146-c28a-469c-b477-30de85c20936"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/elements] with body: {"using":"xpath","value":"//XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther[4]"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":[{"ELEMENT":"E0F1A09D-7A50-4886-86D3-BB94FCCCE771","type":"XCUIElementTypeOther","label":"tabbarItem"}],"sessionId":"4C47DDE5-DE39-4B3C-88CF-842BB7B124EE","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"E0F1A09D-7A50-4886-86D3-BB94FCCCE771","type":"XCUIElementTypeOther","label":"tabbarItem"}]
+[HTTP] <-- POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/elements 200 764 ms - 175 
+[HTTP] --> GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/E0F1A09D-7A50-4886-86D3-BB94FCCCE771/displayed {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[debug] [XCUITest] Executing command 'proxyReqRes'
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/E0F1A09D-7A50-4886-86D3-BB94FCCCE771/displayed] to [GET http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/element/E0F1A09D-7A50-4886-86D3-BB94FCCCE771/displayed] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : true,\n  \"sessionId\" : \"4C47DDE5-DE39-4B3C-88CF-842BB7B124EE\",\n  \"status\" : 0\n}"
+[JSONWP Proxy] Replacing sessionId 4C47DDE5-DE39-4B3C-88CF-842BB7B124EE with 6a537146-c28a-469c-b477-30de85c20936
+[HTTP] <-- GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/E0F1A09D-7A50-4886-86D3-BB94FCCCE771/displayed 200 167 ms - 76 
+[HTTP] --> GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/screenshot {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[debug] [XCUITest] Executing command 'proxyReqRes'
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/screenshot] to [GET http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/screenshot] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : \"iVBORw0KGgoAAAANSUhEUgAAAu4AAAU2CAYAAADK1zMGAAAAAXNSR0IArs4c6QAA\\r\\nABxpRE9UAAAAAgAAAAAAAAKbAAAAKAAAApsAAAKbAAd6tJ020aEAAEAASURBVHgB\\r\\n7L2Hv61Vdf2df+qnIiCggoCKIKB0BZEmCgqxICAgYgO7xl4w9h41thhr1NhjiV1j\\r\\nLCmaGFuiJvF5x5hjjrXmWvvZ55x7uSDkdX8+k9XX8+x9ued+9zhjzedPzr7wxoVx\\r\\nzoU3RZyNciMu0JyzWSI413XOjXaua\\/U6t17jAsznHrFPv27dk3Xtk9fNvX0tj7c1\\r\\nub\\/ey3j\\/\\/VraU\\/tqjvZZeW\\/levE+63vL96XPSJ+H5vR79f3Nn6Pul59d\\/\\/zqXI2X\\r\\nPX2t+KzyMyl97c+i3W+\\/h7g253qMe5R2vZb+LPLz8f5cV+6z7eP9aplr2nuJ6\\/B9\\r\\n5B7no444J\\/7scR32lz79v\\/R0\\/T\\/h65+\\/2X4w+iIwp9XPYx\\/bGWwjvL\\/n9fbTMDfj\\r\\nPJSIs7Hv2Vl\\/ENYqnobSoT2574MfyjWYgzKCfRFl7kNznuegPKvFU6Pu9eyP+rno\\r\\nZ7R56D8X60o86CFoP+Qpy5nnKmI+16Cv9p\\/JORlnPQTj5zx1OfOc7GOJOIOBMQXr\\r\\nCq874yFPxpwna93ZGDsb7SnOZBv7nN7iyagjzr6hx4NvWM5gRB\\/GUI\\/AWs3LfdF\\/\\r\\nGgPzGKc\\/mHOfvJz2oCdFnP5glAivj\\/5Y86TlVPSf+qAbFGehPIttxvUZqJ+FugP9\\r\\n3pcl+0+JeBJKB\\/rOzPC6M5+Ivh4PRP2BZ2AOA3PZ1jjrc3Cu47qon4L2Axin9\\/4H\\r\\nnHEd2jU4jvZp1ypQfyDiZLQjTkeJeEBG68\\/xB...
+[JSONWP Proxy] Replacing sessionId 4C47DDE5-DE39-4B3C-88CF-842BB7B124EE with 6a537146-c28a-469c-b477-30de85c20936
+[HTTP] <-- GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/screenshot 200 96 ms - 824970 
+[HTTP] --> GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/screenshot {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[debug] [XCUITest] Executing command 'proxyReqRes'
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/screenshot] to [GET http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/screenshot] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : \"iVBORw0KGgoAAAANSUhEUgAAAu4AAAU2CAYAAADK1zMGAAAAAXNSR0IArs4c6QAA\\r\\nABxpRE9UAAAAAgAAAAAAAAKbAAAAKAAAApsAAAKbAAd6tJ020aEAAEAASURBVHgB\\r\\n7L2Hv61Vdf2df+qnIiCggoCKIKB0BZEmCgqxICAgYgO7xl4w9h41thhr1NhjiV1j\\r\\nLCmaGFuiJvF5x5hjjrXmWvvZ55x7uSDkdX8+k9XX8+x9ued+9zhjzedPzr7wxoVx\\r\\nzoU3RZyNciMu0JyzWSI413XOjXaua\\/U6t17jAsznHrFPv27dk3Xtk9fNvX0tj7c1\\r\\nub\\/ey3j\\/\\/VraU\\/tqjvZZeW\\/levE+63vL96XPSJ+H5vR79f3Nn6Pul59d\\/\\/zqXI2X\\r\\nPX2t+KzyMyl97c+i3W+\\/h7g253qMe5R2vZb+LPLz8f5cV+6z7eP9aplr2nuJ6\\/B9\\r\\n5B7no444J\\/7scR32lz79v\\/R0\\/T\\/h65+\\/2X4w+iIwp9XPYx\\/bGWwjvL\\/n9fbTMDfj\\r\\nPJSIs7Hv2Vl\\/ENYqnobSoT2574MfyjWYgzKCfRFl7kNznuegPKvFU6Pu9eyP+rno\\r\\nZ7R56D8X60o86CFoP+Qpy5nnKmI+16Cv9p\\/JORlnPQTj5zx1OfOc7GOJOIOBMQXr\\r\\nCq874yFPxpwna93ZGDsb7SnOZBv7nN7iyagjzr6hx4NvWM5gRB\\/GUI\\/AWs3LfdF\\/\\r\\nGgPzGKc\\/mHOfvJz2oCdFnP5glAivj\\/5Y86TlVPSf+qAbFGehPIttxvUZqJ+FugP9\\r\\n3pcl+0+JeBJKB\\/rOzPC6M5+Ivh4PRP2BZ2AOA3PZ1jjrc3Cu47qon4L2Axin9\\/4H\\r\\nnHEd2jU4jvZp1ypQfyDiZLQjTkeJeEBG68\\/xB...
+[JSONWP Proxy] Replacing sessionId 4C47DDE5-DE39-4B3C-88CF-842BB7B124EE with 6a537146-c28a-469c-b477-30de85c20936
+[HTTP] <-- GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/screenshot 200 101 ms - 824970 
+[HTTP] --> POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/E0F1A09D-7A50-4886-86D3-BB94FCCCE771/click {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[debug] [XCUITest] Executing command 'proxyReqRes'
+[debug] [JSONWP Proxy] Proxying [POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/E0F1A09D-7A50-4886-86D3-BB94FCCCE771/click] to [POST http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/element/E0F1A09D-7A50-4886-86D3-BB94FCCCE771/click] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: {"status":0,"id":"E0F1A09D-7A50-4886-86D3-BB94FCCCE771","value":"","sessionId":"4C47DDE5-DE39-4B3C-88CF-842BB7B124EE"}
+[JSONWP Proxy] Replacing sessionId 4C47DDE5-DE39-4B3C-88CF-842BB7B124EE with 6a537146-c28a-469c-b477-30de85c20936
+[HTTP] <-- POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/E0F1A09D-7A50-4886-86D3-BB94FCCCE771/click 200 974 ms - 118 
+[HTTP] --> POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/elements {"using":"name","value":"测试入口"}
+[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["name","测试入口","6a537146-c28a-469c-b477-30de85c20936"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/elements] with body: {"using":"name","value":"测试入口"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":[{"ELEMENT":"9929045F-184D-4E18-AE31-8E14CF56CF9E","type":"XCUIElementTypeButton","label":"测试入口"}],"sessionId":"4C47DDE5-DE39-4B3C-88CF-842BB7B124EE","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"9929045F-184D-4E18-AE31-8E14CF56CF9E","type":"XCUIElementTypeButton","label":"测试入口"}]
+[HTTP] <-- POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/elements 200 482 ms - 178 
+[HTTP] --> GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/9929045F-184D-4E18-AE31-8E14CF56CF9E/displayed {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[debug] [XCUITest] Executing command 'proxyReqRes'
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/9929045F-184D-4E18-AE31-8E14CF56CF9E/displayed] to [GET http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/element/9929045F-184D-4E18-AE31-8E14CF56CF9E/displayed] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : true,\n  \"sessionId\" : \"4C47DDE5-DE39-4B3C-88CF-842BB7B124EE\",\n  \"status\" : 0\n}"
+[JSONWP Proxy] Replacing sessionId 4C47DDE5-DE39-4B3C-88CF-842BB7B124EE with 6a537146-c28a-469c-b477-30de85c20936
+[HTTP] <-- GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/9929045F-184D-4E18-AE31-8E14CF56CF9E/displayed 200 174 ms - 76 
+[HTTP] --> GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/screenshot {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[debug] [XCUITest] Executing command 'proxyReqRes'
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/screenshot] to [GET http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/screenshot] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : \"iVBORw0KGgoAAAANSUhEUgAAAu4AAAU2CAYAAADK1zMGAAAAAXNSR0IArs4c6QAA\\r\\nABxpRE9UAAAAAgAAAAAAAAKbAAAAKAAAApsAAAKbAAMdpzQ9xcMAAEAASURBVHgB\\r\\n7L35ry1bctfpv6ahheEX7DIyRgi7bNNqwBODEFhmcCO6kbsFbluMQgzGRmBLjLbw\\r\\nINqA1A14qLILNwKbxnZNpixA2DWZwQZR9V5VvaHeWO9Ou\\/O7bn7WjfPNjB0r9859\\r\\nzrn3nSPt982I+EasWCszV35P3n3v+7zPfOYzB31efunlw2df\\/uzhs5+dPzqePi+\\/\\r\\n\\/HL7dD\\/xGRdxyyMOUgcbdP9LL7100Kf1NNeM\\/XicOvivA1988cXWozAe+9jEQcXX\\r\\njvEJIyf6L3X8wgsvHPTJ6hMHnYcfJI4NZv4XPjONr8\\/cB8j1iQ16nYyHHyTf7eaf\\r\\nxsefIfkan3MUzzd9ffrTnz7o86lPfWrTJ8vL\\/NT\\/9Kem8fSZx3UbniP87n9+6lcf\\r\\n6xve8889f3juuecOn\\/zkJ2\\/lR72t9ef+T3ziEwd9nvvkOv+65+f9nTp+Vcfj2M8\\/\\r\\n\\/\\/zh2KddE1wbMx7jb41RnzxscM2PT3Pg+GlH7rut8yCPfQub+9Zt9xMHiWf1+v7C\\r\\nvgOy\\/xgu6hifcTOkHzDlzXWJO7\\/3PffXeZbX\\/cxjjjMP6jou8mwc4iD52I7EQeLY\\r\\noPvpE4SHDd8RnmPFq+LUY3xs0PMrm7yOG68nr891gb\\/X5fzbeSQOH8z8xB0zfuYn\\r\\n\\/\\/NYSAl3iV8ENIIZQdz9d8K9CbYo1qpjRJ4LPfyIPRBei7\\/4ROQTvwRGQbpWnzjo\\r\\nHPwgcWww898K4T790sD9kGGcB+fJz7\\/mqHzdfNxoo5jdsJm...
+[JSONWP Proxy] Replacing sessionId 4C47DDE5-DE39-4B3C-88CF-842BB7B124EE with 6a537146-c28a-469c-b477-30de85c20936
+[HTTP] <-- GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/screenshot 200 66 ms - 355162 
+[HTTP] --> GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/screenshot {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[debug] [XCUITest] Executing command 'proxyReqRes'
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/screenshot] to [GET http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/screenshot] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : \"iVBORw0KGgoAAAANSUhEUgAAAu4AAAU2CAYAAADK1zMGAAAAAXNSR0IArs4c6QAA\\r\\nABxpRE9UAAAAAgAAAAAAAAKbAAAAKAAAApsAAAKbAAMdpzQ9xcMAAEAASURBVHgB\\r\\n7L35ry1bctfpv6ahheEX7DIyRgi7bNNqwBODEFhmcCO6kbsFbluMQgzGRmBLjLbw\\r\\nINqA1A14qLILNwKbxnZNpixA2DWZwQZR9V5VvaHeWO9Ou\\/O7bn7WjfPNjB0r9859\\r\\nzrn3nSPt982I+EasWCszV35P3n3v+7zPfOYzB31efunlw2df\\/uzhs5+dPzqePi+\\/\\r\\n\\/HL7dD\\/xGRdxyyMOUgcbdP9LL7100Kf1NNeM\\/XicOvivA1988cXWozAe+9jEQcXX\\r\\njvEJIyf6L3X8wgsvHPTJ6hMHnYcfJI4NZv4XPjONr8\\/cB8j1iQ16nYyHHyTf7eaf\\r\\nxsefIfkan3MUzzd9ffrTnz7o86lPfWrTJ8vL\\/NT\\/9Kem8fSZx3UbniP87n9+6lcf\\r\\n6xve8889f3juuecOn\\/zkJ2\\/lR72t9ef+T3ziEwd9nvvkOv+65+f9nTp+Vcfj2M8\\/\\r\\n\\/\\/zh2KddE1wbMx7jb41RnzxscM2PT3Pg+GlH7rut8yCPfQub+9Zt9xMHiWf1+v7C\\r\\nvgOy\\/xgu6hifcTOkHzDlzXWJO7\\/3PffXeZbX\\/cxjjjMP6jou8mwc4iD52I7EQeLY\\r\\noPvpE4SHDd8RnmPFq+LUY3xs0PMrm7yOG68nr891gb\\/X5fzbeSQOH8z8xB0zfuYn\\r\\n\\/\\/NYSAl3iV8ENIIZQdz9d8K9CbYo1qpjRJ4LPfyIPRBei7\\/4ROQTvwRGQbpWnzjo\\r\\nHPwgcWww898K4T790sD9kGGcB+fJz7\\/mqHzdfNxoo5jdsJm...
+[JSONWP Proxy] Replacing sessionId 4C47DDE5-DE39-4B3C-88CF-842BB7B124EE with 6a537146-c28a-469c-b477-30de85c20936
+[HTTP] <-- GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/screenshot 200 65 ms - 355162 
+[HTTP] --> POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/9929045F-184D-4E18-AE31-8E14CF56CF9E/click {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[debug] [XCUITest] Executing command 'proxyReqRes'
+[debug] [JSONWP Proxy] Proxying [POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/9929045F-184D-4E18-AE31-8E14CF56CF9E/click] to [POST http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/element/9929045F-184D-4E18-AE31-8E14CF56CF9E/click] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: {"status":0,"id":"9929045F-184D-4E18-AE31-8E14CF56CF9E","value":"","sessionId":"4C47DDE5-DE39-4B3C-88CF-842BB7B124EE"}
+[JSONWP Proxy] Replacing sessionId 4C47DDE5-DE39-4B3C-88CF-842BB7B124EE with 6a537146-c28a-469c-b477-30de85c20936
+[HTTP] <-- POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/9929045F-184D-4E18-AE31-8E14CF56CF9E/click 200 1088 ms - 118 
+[HTTP] --> POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/elements {"using":"name","value":"我的店铺"}
+[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["name","我的店铺","6a537146-c28a-469c-b477-30de85c20936"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/elements] with body: {"using":"name","value":"我的店铺"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":[{"ELEMENT":"AD71B224-D972-44A1-988D-0D1ABE1D3D7C","type":"XCUIElementTypeButton","label":"我的店铺"}],"sessionId":"4C47DDE5-DE39-4B3C-88CF-842BB7B124EE","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"AD71B224-D972-44A1-988D-0D1ABE1D3D7C","type":"XCUIElementTypeButton","label":"我的店铺"}]
+[HTTP] <-- POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/elements 200 608 ms - 178 
+[HTTP] --> GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/AD71B224-D972-44A1-988D-0D1ABE1D3D7C/displayed {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[debug] [XCUITest] Executing command 'proxyReqRes'
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/AD71B224-D972-44A1-988D-0D1ABE1D3D7C/displayed] to [GET http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/element/AD71B224-D972-44A1-988D-0D1ABE1D3D7C/displayed] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : false,\n  \"sessionId\" : \"4C47DDE5-DE39-4B3C-88CF-842BB7B124EE\",\n  \"status\" : 0\n}"
+[JSONWP Proxy] Replacing sessionId 4C47DDE5-DE39-4B3C-88CF-842BB7B124EE with 6a537146-c28a-469c-b477-30de85c20936
+[HTTP] <-- GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/AD71B224-D972-44A1-988D-0D1ABE1D3D7C/displayed 200 289 ms - 77 
+[HTTP] --> GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/AD71B224-D972-44A1-988D-0D1ABE1D3D7C/displayed {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[debug] [XCUITest] Executing command 'proxyReqRes'
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/AD71B224-D972-44A1-988D-0D1ABE1D3D7C/displayed] to [GET http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/element/AD71B224-D972-44A1-988D-0D1ABE1D3D7C/displayed] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : false,\n  \"sessionId\" : \"4C47DDE5-DE39-4B3C-88CF-842BB7B124EE\",\n  \"status\" : 0\n}"
+[JSONWP Proxy] Replacing sessionId 4C47DDE5-DE39-4B3C-88CF-842BB7B124EE with 6a537146-c28a-469c-b477-30de85c20936
+[HTTP] <-- GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/AD71B224-D972-44A1-988D-0D1ABE1D3D7C/displayed 200 350 ms - 77 
+[HTTP] --> POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/execute {"script":"mobile: scroll","args":[{"direction":"down"}]}
+[debug] [MJSONWP] Calling AppiumDriver.execute() with args: ["mobile: scroll",[{"direction":"down"}],"6a537146-c28a-469c-b477-30de85c20936"]
+[debug] [XCUITest] Executing command 'execute'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/element] with body: {"using":"class name","value":"XCUIElementTypeApplication"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":{"ELEMENT":"BFC4C976-0C06-48F8-85DE-22487580A88F","type":"XCUIElementTypeApplication","label":"达人店"},"sessionId":"4C47DDE5-DE39-4B3C-88CF-842BB7B124EE","status":0}
+[debug] [JSONWP Proxy] Proxying [POST /uiaElement/BFC4C976-0C06-48F8-85DE-22487580A88F/scroll] to [POST http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/uiaElement/BFC4C976-0C06-48F8-85DE-22487580A88F/scroll] with body: {"direction":"down"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":{},"sessionId":"4C47DDE5-DE39-4B3C-88CF-842BB7B124EE","status":0}
+[debug] [MJSONWP] Responding to client with driver.execute() result: null
+[HTTP] <-- POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/execute 200 7513 ms - 76 
+[HTTP] --> GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/AD71B224-D972-44A1-988D-0D1ABE1D3D7C/displayed {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[debug] [XCUITest] Executing command 'proxyReqRes'
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/AD71B224-D972-44A1-988D-0D1ABE1D3D7C/displayed] to [GET http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/element/AD71B224-D972-44A1-988D-0D1ABE1D3D7C/displayed] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : true,\n  \"sessionId\" : \"4C47DDE5-DE39-4B3C-88CF-842BB7B124EE\",\n  \"status\" : 0\n}"
+[JSONWP Proxy] Replacing sessionId 4C47DDE5-DE39-4B3C-88CF-842BB7B124EE with 6a537146-c28a-469c-b477-30de85c20936
+[HTTP] <-- GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/AD71B224-D972-44A1-988D-0D1ABE1D3D7C/displayed 200 217 ms - 76 
+[HTTP] --> POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/AD71B224-D972-44A1-988D-0D1ABE1D3D7C/click {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[debug] [XCUITest] Executing command 'proxyReqRes'
+[debug] [JSONWP Proxy] Proxying [POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/AD71B224-D972-44A1-988D-0D1ABE1D3D7C/click] to [POST http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/element/AD71B224-D972-44A1-988D-0D1ABE1D3D7C/click] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: {"status":0,"id":"AD71B224-D972-44A1-988D-0D1ABE1D3D7C","value":"","sessionId":"4C47DDE5-DE39-4B3C-88CF-842BB7B124EE"}
+[JSONWP Proxy] Replacing sessionId 4C47DDE5-DE39-4B3C-88CF-842BB7B124EE with 6a537146-c28a-469c-b477-30de85c20936
+[HTTP] <-- POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/AD71B224-D972-44A1-988D-0D1ABE1D3D7C/click 200 1295 ms - 118 
+[HTTP] --> POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/elements {"using":"class name","value":"Button"}
+[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["class name","Button","6a537146-c28a-469c-b477-30de85c20936"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, accessibility id
+[XCUITest] Rewrote incoming selector from 'Button' to 'XCUIElementTypeButton' to match XCUI type. You should consider updating your tests to use the new selectors directly
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/elements] with body: {"using":"class name","value":"XCUIElementTypeButton"}
+[debug] [WebDriverAgent] Sim: Mar 14 15:58:54 yuxius-MB XCTRunner[31558]: Enqueue Failure: UI Testing Failure - No matches found for Button
+[debug] [WebDriverAgent] Sim: 	Query input was {(
+[debug] [WebDriverAgent] Sim: 	    Button 0x60800017f800: traits: 8589934593, {{15.0, 74.0}, {25.0, 25.0}}, label: '',
+[debug] [WebDriverAgent] Sim: 	    Button 0x60800017fa40: traits: 8589934593, {{28.8, 107.0}, {130.0, 130.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x6080003600c0: traits: 8589934593, {{335.0, 74.0}, {25.0, 25.0}}, label: '',
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000360300: traits: 8589934593, {{216.2, 107.0}, {130.0, 130.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000175f00: traits: 8589934593, {{0.0, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x6000001729c0: traits: 8589934593, {{93.8, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000177880: traits: 8589934593, {{187.5, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000178900: traits: 8589934593, {{281.2, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x60000016bf40: traits: 8589934593, {{0.0, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000173500: traits: 8589934593, {{93.8, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x60000016d380: traits: 8589934593, {{187.5, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x60000016d2c0: traits: 8589934593, {{281.2, 391.1}, {93.8, 75.0}}
+[debug] [WebDriverAgent] Sim: 	)} /usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[debug] [WebDriverAgent] Sim: Mar 14 15:58:56 yuxius-MB XCTRunner[31558]: Enqueue Failure: UI Testing Failure - No matches found for Button
+[debug] [WebDriverAgent] Sim: 	Query input was {(
+[debug] [WebDriverAgent] Sim: 	    Button 0x6080003606c0: traits: 8589934593, {{15.0, 74.0}, {25.0, 25.0}}, label: '',
+[debug] [WebDriverAgent] Sim: 	    Button 0x60800017e9c0: traits: 8589934593, {{28.8, 107.0}, {130.0, 130.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000360d80: traits: 8589934593, {{335.0, 74.0}, {25.0, 25.0}}, label: '',
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000360fc0: traits: 8589934593, {{216.2, 107.0}, {130.0, 130.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x6080003618c0: traits: 8589934593, {{0.0, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000361c80: traits: 8589934593, {{93.8, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000362040: traits: 8589934593, {{187.5, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000362400: traits: 8589934593, {{281.2, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x6080003627c0: traits: 8589934593, {{0.0, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000362b80: traits: 8589934593, {{93.8, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000362f40: traits: 8589934593, {{187.5, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000363300: traits: 8589934593, {{281.2, 391.1}, {93.8, 75.0}}
+[debug] [WebDriverAgent] Sim: 	)} /usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[debug] [WebDriverAgent] Sim: Mar 14 15:58:59 yuxius-MB XCTRunner[31558]: Enqueue Failure: UI Testing Failure - No matches found for Button
+[debug] [WebDriverAgent] Sim: 	Query input was {(
+[debug] [WebDriverAgent] Sim: 	    Button 0x6000003660c0: traits: 8589934593, {{15.0, 74.0}, {25.0, 25.0}}, label: '',
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000365d00: traits: 8589934593, {{28.8, 107.0}, {130.0, 130.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000363c00: traits: 8589934593, {{335.0, 74.0}, {25.0, 25.0}}, label: '',
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000363cc0: traits: 8589934593, {{216.2, 107.0}, {130.0, 130.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000367bc0: traits: 8589934593, {{0.0, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000364140: traits: 8589934593, {{93.8, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000367ec0: traits: 8589934593, {{187.5, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x6000003684c0: traits: 8589934593, {{281.2, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000368880: traits: 8589934593, {{0.0, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000368c40: traits: 8589934593, {{93.8, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000369000: traits: 8589934593, {{187.5, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x6000003693c0: traits: 8589934593, {{281.2, 391.1}, {93.8, 75.0}}
+[debug] [WebDriverAgent] Sim: 	)} /usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[debug] [WebDriverAgent] Sim: Mar 14 15:59:02 yuxius-MB XCTRunner[31558]: Enqueue Failure: UI Testing Failure - No matches found for Button
+[debug] [WebDriverAgent] Sim: 	Query input was {(
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000177ac0: traits: 8589934593, {{15.0, 74.0}, {25.0, 25.0}}, label: '',
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000173800: traits: 8589934593, {{28.8, 107.0}, {130.0, 130.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000176140: traits: 8589934593, {{335.0, 74.0}, {25.0, 25.0}}, label: '',
+[debug] [WebDriverAgent] Sim: 	    Button 0x60800017ca40: traits: 8589934593, {{216.2, 107.0}, {130.0, 130.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x60800017c500: traits: 8589934593, {{0.0, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000364200: traits: 8589934593, {{93.8, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000364440: traits: 8589934593, {{187.5, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000364800: traits: 8589934593, {{281.2, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000364bc0: traits: 8589934593, {{0.0, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000364f80: traits: 8589934593, {{93.8, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000365340: traits: 8589934593, {{187.5, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000365700: traits: 8589934593, {{281.2, 391.1}, {93.8, 75.0}}
+[debug] [WebDriverAgent] Sim: 	)} /usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[debug] [WebDriverAgent] Sim: Mar 14 15:59:05 yuxius-MB XCTRunner[31558]: Enqueue Failure: UI Testing Failure - No matches found for Button
+[debug] [WebDriverAgent] Sim: 	Query input was {(
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000367e00: traits: 8589934593, {{15.0, 74.0}, {25.0, 25.0}}, label: '',
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000367ec0: traits: 8589934593, {{28.8, 107.0}, {130.0, 130.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000368880: traits: 8589934593, {{335.0, 74.0}, {25.0, 25.0}}, label: '',
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000368640: traits: 8589934593, {{216.2, 107.0}, {130.0, 130.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000369180: traits: 8589934593, {{0.0, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000368280: traits: 8589934593, {{93.8, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000367740: traits: 8589934593, {{187.5, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000366e40: traits: 8589934593, {{281.2, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000369b40: traits: 8589934593, {{0.0, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000369780: traits: 8589934593, {{93.8, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x60000016abc0: traits: 8589934593, {{187.5, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000171a00: traits: 8589934593, {{281.2, 391.1}, {93.8, 75.0}}
+[debug] [WebDriverAgent] Sim: 	)} /usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[debug] [WebDriverAgent] Sim: Mar 14 15:59:07 yuxius-MB XCTRunner[31558]: Enqueue Failure: UI Testing Failure - No matches found for Button
+[debug] [WebDriverAgent] Sim: 	Query input was {(
+[debug] [WebDriverAgent] Sim: 	    Button 0x60000036a680: traits: 8589934593, {{15.0, 74.0}, {25.0, 25.0}}, label: '',
+[debug] [WebDriverAgent] Sim: 	    Button 0x60000036a8c0: traits: 8589934593, {{28.8, 107.0}, {130.0, 130.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x60000036aec0: traits: 8589934593, {{335.0, 74.0}, {25.0, 25.0}}, label: '',
+[debug] [WebDriverAgent] Sim: 	    Button 0x60000036b100: traits: 8589934593, {{216.2, 107.0}, {130.0, 130.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x60000036ba00: traits: 8589934593, {{0.0, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x60000036bdc0: traits: 8589934593, {{93.8, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x60000036c180: traits: 8589934593, {{187.5, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x60000036c540: traits: 8589934593, {{281.2, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x60000036c900: traits: 8589934593, {{0.0, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x60000036ccc0: traits: 8589934593, {{93.8, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x60000036d080: traits: 8589934593, {{187.5, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x60000036d440: traits: 8589934593, {{281.2, 391.1}, {93.8, 75.0}}
+[debug] [WebDriverAgent] Sim: 	)} /usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[debug] [WebDriverAgent] Sim: Mar 14 15:59:10 yuxius-MB XCTRunner[31558]: Enqueue Failure: UI Testing Failure - No matches found for Button
+[debug] [WebDriverAgent] Sim: 	Query input was {(
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000369b40: traits: 8589934593, {{15.0, 74.0}, {25.0, 25.0}}, label: '',
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000366cc0: traits: 8589934593, {{28.8, 107.0}, {130.0, 130.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000367140: traits: 8589934593, {{335.0, 74.0}, {25.0, 25.0}}, label: '',
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000176ec0: traits: 8589934593, {{216.2, 107.0}, {130.0, 130.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000174940: traits: 8589934593, {{0.0, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000363b40: traits: 8589934593, {{93.8, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000173e00: traits: 8589934593, {{187.5, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x60800017f080: traits: 8589934593, {{281.2, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x60800017f5c0: traits: 8589934593, {{0.0, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x60800017fa40: traits: 8589934593, {{93.8, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000363d80: traits: 8589934593, {{187.5, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x60000017c200: traits: 8589934593, {{281.2, 391.1}, {93.8, 75.0}}
+[debug] [WebDriverAgent] Sim: 	)} /usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[debug] [WebDriverAgent] Sim: Mar 14 15:59:12 yuxius-MB XCTRunner[31558]: Enqueue Failure: UI Testing Failure - No matches found for Button
+[debug] [WebDriverAgent] Sim: 	Query input was {(
+[debug] [WebDriverAgent] Sim: 	    Button 0x60000036bd00: traits: 8589934593, {{15.0, 74.0}, {25.0, 25.0}}, label: '',
+[debug] [WebDriverAgent] Sim: 	    Button 0x60000036c0c0: traits: 8589934593, {{28.8, 107.0}, {130.0, 130.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x60000036ca80: traits: 8589934593, {{335.0, 74.0}, {25.0, 25.0}}, label: '',
+[debug] [WebDriverAgent] Sim: 	    Button 0x60000036ce40: traits: 8589934593, {{216.2, 107.0}, {130.0, 130.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x60000036d500: traits: 8589934593, {{0.0, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000366900: traits: 8589934593, {{93.8, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000366540: traits: 8589934593, {{187.5, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x60000036db00: traits: 8589934593, {{281.2, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x60000036d740: traits: 8589934593, {{0.0, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x6080003603c0: traits: 8589934593, {{93.8, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x60800017ad00: traits: 8589934593, {{187.5, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000177a00: traits: 8589934593, {{281.2, 391.1}, {93.8, 75.0}}
+[debug] [WebDriverAgent] Sim: 	)} /usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[debug] [WebDriverAgent] Sim: Mar 14 15:59:15 yuxius-MB XCTRunner[31558]: Enqueue Failure: UI Testing Failure - No matches found for Button
+[debug] [WebDriverAgent] Sim: 	Query input was {(
+[debug] [WebDriverAgent] Sim: 	    Button 0x6080003633c0: traits: 8589934593, {{15.0, 74.0}, {25.0, 25.0}}, label: '',
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000361500: traits: 8589934593, {{28.8, 107.0}, {130.0, 130.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000364740: traits: 8589934593, {{335.0, 74.0}, {25.0, 25.0}}, label: '',
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000363b40: traits: 8589934593, {{216.2, 107.0}, {130.0, 130.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000169900: traits: 8589934593, {{0.0, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000171400: traits: 8589934593, {{93.8, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000363480: traits: 8589934593, {{187.5, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x6080003612c0: traits: 8589934593, {{281.2, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x60800017a940: traits: 8589934593, {{0.0, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x60800017ed80: traits: 8589934593, {{93.8, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000363240: traits: 8589934593, {{187.5, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x6080003624c0: traits: 8589934593, {{281.2, 391.1}, {93.8, 75.0}}
+[debug] [WebDriverAgent] Sim: 	)} /usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[debug] [WebDriverAgent] Sim: Mar 14 15:59:17 yuxius-MB XCTRunner[31558]: Enqueue Failure: UI Testing Failure - No matches found for Button
+[debug] [WebDriverAgent] Sim: 	Query input was {(
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000362e80: traits: 8589934593, {{15.0, 74.0}, {25.0, 25.0}}, label: '',
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000362a00: traits: 8589934593, {{28.8, 107.0}, {130.0, 130.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x60800017f680: traits: 8589934593, {{335.0, 74.0}, {25.0, 25.0}}, label: '',
+[debug] [WebDriverAgent] Sim: 	    Button 0x60800017d100: traits: 8589934593, {{216.2, 107.0}, {130.0, 130.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x60800017b900: traits: 8589934593, {{0.0, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x60800016f240: traits: 8589934593, {{93.8, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000177b80: traits: 8589934593, {{187.5, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000366b40: traits: 8589934593, {{281.2, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000173500: traits: 8589934593, {{0.0, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000365d00: traits: 8589934593, {{93.8, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x60800017f380: traits: 8589934593, {{187.5, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x60800017e240: traits: 8589934593, {{281.2, 391.1}, {93.8, 75.0}}
+[debug] [WebDriverAgent] Sim: 	)} /usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[debug] [WebDriverAgent] Sim: Mar 14 15:59:20 yuxius-MB XCTRunner[31558]: Enqueue Failure: UI Testing Failure - No matches found for Button
+[debug] [WebDriverAgent] Sim: 	Query input was {(
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000366c00: traits: 8589934593, {{15.0, 74.0}, {25.0, 25.0}}, label: '',
+[debug] [WebDriverAgent] Sim: 	    Button 0x60000036c780: traits: 8589934593, {{28.8, 107.0}, {130.0, 130.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x60000036b640: traits: 8589934593, {{335.0, 74.0}, {25.0, 25.0}}, label: '',
+[debug] [WebDriverAgent] Sim: 	    Button 0x60000036c6c0: traits: 8589934593, {{216.2, 107.0}, {130.0, 130.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000367bc0: traits: 8589934593, {{0.0, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000364200: traits: 8589934593, {{93.8, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x6000003672c0: traits: 8589934593, {{187.5, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000367140: traits: 8589934593, {{281.2, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000367500: traits: 8589934593, {{0.0, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000368b80: traits: 8589934593, {{93.8, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x6000003657c0: traits: 8589934593, {{187.5, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000369300: traits: 8589934593, {{281.2, 391.1}, {93.8, 75.0}}
+[debug] [WebDriverAgent] Sim: 	)} /usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[debug] [WebDriverAgent] Sim: Mar 14 15:59:22 yuxius-MB XCTRunner[31558]: Enqueue Failure: UI Testing Failure - No matches found for Button
+[debug] [WebDriverAgent] Sim: 	Query input was {(
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000360300: traits: 8589934593, {{15.0, 74.0}, {25.0, 25.0}}, label: '',
+[debug] [WebDriverAgent] Sim: 	    Button 0x60800017be40: traits: 8589934593, {{28.8, 107.0}, {130.0, 130.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000365940: traits: 8589934593, {{335.0, 74.0}, {25.0, 25.0}}, label: '',
+[debug] [WebDriverAgent] Sim: 	    Button 0x60800016d140: traits: 8589934593, {{216.2, 107.0}, {130.0, 130.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000365dc0: traits: 8589934593, {{0.0, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000364b00: traits: 8589934593, {{93.8, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x60800017e780: traits: 8589934593, {{187.5, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x6080001759c0: traits: 8589934593, {{281.2, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000174940: traits: 8589934593, {{0.0, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000361a40: traits: 8589934593, {{93.8, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000178900: traits: 8589934593, {{187.5, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000367680: traits: 8589934593, {{281.2, 391.1}, {93.8, 75.0}}
+[debug] [WebDriverAgent] Sim: 	)} /usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[debug] [WebDriverAgent] Sim: Mar 14 15:59:24 yuxius-MB XCTRunner[31558]: Enqueue Failure: UI Testing Failure - No matches found for Button
+[debug] [WebDriverAgent] Sim: 	Query input was {(
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000179680: traits: 8589934593, {{15.0, 74.0}, {25.0, 25.0}}, label: '',
+[debug] [WebDriverAgent] Sim: 	    Button 0x6080003642c0: traits: 8589934593, {{28.8, 107.0}, {130.0, 130.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000179800: traits: 8589934593, {{335.0, 74.0}, {25.0, 25.0}}, label: '',
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000366cc0: traits: 8589934593, {{216.2, 107.0}, {130.0, 130.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x60800016d200: traits: 8589934593, {{0.0, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000173500: traits: 8589934593, {{93.8, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x6080001795c0: traits: 8589934593, {{187.5, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000361500: traits: 8589934593, {{281.2, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x60800017a940: traits: 8589934593, {{0.0, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x6080003612c0: traits: 8589934593, {{93.8, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000363180: traits: 8589934593, {{187.5, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x6080003624c0: traits: 8589934593, {{281.2, 391.1}, {93.8, 75.0}}
+[debug] [WebDriverAgent] Sim: 	)} /usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[debug] [WebDriverAgent] Sim: Mar 14 15:59:27 yuxius-MB XCTRunner[31558]: Enqueue Failure: UI Testing Failure - No matches found for Button
+[debug] [WebDriverAgent] Sim: 	Query input was {(
+[debug] [WebDriverAgent] Sim: 	    Button 0x6080001762c0: traits: 8589934593, {{15.0, 74.0}, {25.0, 25.0}}, label: '',
+[debug] [WebDriverAgent] Sim: 	    Button 0x60800017c800: traits: 8589934593, {{28.8, 107.0}, {130.0, 130.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000366180: traits: 8589934593, {{335.0, 74.0}, {25.0, 25.0}}, label: '',
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000360a80: traits: 8589934593, {{216.2, 107.0}, {130.0, 130.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000360780: traits: 8589934593, {{0.0, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000363f00: traits: 8589934593, {{93.8, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x60800017f980: traits: 8589934593, {{187.5, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000365a00: traits: 8589934593, {{281.2, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000361200: traits: 8589934593, {{0.0, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x6080003651c0: traits: 8589934593, {{93.8, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x60000036aa40: traits: 8589934593, {{187.5, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000363fc0: traits: 8589934593, {{281.2, 391.1}, {93.8, 75.0}}
+[debug] [WebDriverAgent] Sim: 	)} /usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[debug] [WebDriverAgent] Sim: Mar 14 15:59:30 yuxius-MB XCTRunner[31558]: Enqueue Failure: UI Testing Failure - No matches found for Button
+[debug] [WebDriverAgent] Sim: 	Query input was {(
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000368700: traits: 8589934593, {{15.0, 74.0}, {25.0, 25.0}}, label: '',
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000369a80: traits: 8589934593, {{28.8, 107.0}, {130.0, 130.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x60000036a380: traits: 8589934593, {{335.0, 74.0}, {25.0, 25.0}}, label: '',
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000369600: traits: 8589934593, {{216.2, 107.0}, {130.0, 130.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x6000003675c0: traits: 8589934593, {{0.0, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000367080: traits: 8589934593, {{93.8, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x60000017b3c0: traits: 8589934593, {{187.5, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x6000003696c0: traits: 8589934593, {{281.2, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000368400: traits: 8589934593, {{0.0, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x60000016ec40: traits: 8589934593, {{93.8, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x60000016e340: traits: 8589934593, {{187.5, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000369840: traits: 8589934593, {{281.2, 391.1}, {93.8, 75.0}}
+[debug] [WebDriverAgent] Sim: 	)} /usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[debug] [WebDriverAgent] Sim: Mar 14 15:59:32 yuxius-MB XCTRunner[31558]: Enqueue Failure: UI Testing Failure - No matches found for Button
+[debug] [WebDriverAgent] Sim: 	Query input was {(
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000364080: traits: 8589934593, {{15.0, 74.0}, {25.0, 25.0}}, label: '',
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000366300: traits: 8589934593, {{28.8, 107.0}, {130.0, 130.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000174280: traits: 8589934593, {{335.0, 74.0}, {25.0, 25.0}}, label: '',
+[debug] [WebDriverAgent] Sim: 	    Button 0x60800017ec00: traits: 8589934593, {{216.2, 107.0}, {130.0, 130.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x60000036c000: traits: 8589934593, {{0.0, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000367500: traits: 8589934593, {{93.8, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x60000036d140: traits: 8589934593, {{187.5, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x60000036b7c0: traits: 8589934593, {{281.2, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x6000003660c0: traits: 8589934593, {{0.0, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000363480: traits: 8589934593, {{93.8, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000365700: traits: 8589934593, {{187.5, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000363000: traits: 8589934593, {{281.2, 391.1}, {93.8, 75.0}}
+[debug] [WebDriverAgent] Sim: 	)} /usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[debug] [WebDriverAgent] Sim: Mar 14 15:59:34 yuxius-MB XCTRunner[31558]: Enqueue Failure: UI Testing Failure - No matches found for Button
+[debug] [WebDriverAgent] Sim: 	Query input was {(
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000369300: traits: 8589934593, {{15.0, 74.0}, {25.0, 25.0}}, label: '',
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000178000: traits: 8589934593, {{28.8, 107.0}, {130.0, 130.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x6080003624c0: traits: 8589934593, {{335.0, 74.0}, {25.0, 25.0}}, label: '',
+[debug] [WebDriverAgent] Sim: 	    Button 0x60800017f2c0: traits: 8589934593, {{216.2, 107.0}, {130.0, 130.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000365400: traits: 8589934593, {{0.0, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000361680: traits: 8589934593, {{93.8, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x60800017f500: traits: 8589934593, {{187.5, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x60800017b9c0: traits: 8589934593, {{281.2, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x60800017c440: traits: 8589934593, {{0.0, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x60800017e600: traits: 8589934593, {{93.8, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000170bc0: traits: 8589934593, {{187.5, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x60800017f5c0: traits: 8589934593, {{281.2, 391.1}, {93.8, 75.0}}
+[debug] [WebDriverAgent] Sim: 	)} /usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[debug] [WebDriverAgent] Sim: Mar 14 15:59:37 yuxius-MB XCTRunner[31558]: Enqueue Failure: UI Testing Failure - No matches found for Button
+[debug] [WebDriverAgent] Sim: 	Query input was {(
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000365f40: traits: 8589934593, {{15.0, 74.0}, {25.0, 25.0}}, label: '',
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000362100: traits: 8589934593, {{28.8, 107.0}, {130.0, 130.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x60800017f440: traits: 8589934593, {{335.0, 74.0}, {25.0, 25.0}}, label: '',
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000364500: traits: 8589934593, {{216.2, 107.0}, {130.0, 130.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x60000036c780: traits: 8589934593, {{0.0, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x60000036c840: traits: 8589934593, {{93.8, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x60000017b240: traits: 8589934593, {{187.5, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000170740: traits: 8589934593, {{281.2, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000368940: traits: 8589934593, {{0.0, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x6000003699c0: traits: 8589934593, {{93.8, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000364bc0: traits: 8589934593, {{187.5, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000365a00: traits: 8589934593, {{281.2, 391.1}, {93.8, 75.0}}
+[debug] [WebDriverAgent] Sim: 	)} /usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[debug] [WebDriverAgent] Sim: Mar 14 15:59:40 yuxius-MB XCTRunner[31558]: Enqueue Failure: UI Testing Failure - No matches found for Button
+[debug] [WebDriverAgent] Sim: 	Query input was {(
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000365640: traits: 8589934593, {{15.0, 74.0}, {25.0, 25.0}}, label: '',
+[debug] [WebDriverAgent] Sim: 	    Button 0x60800016fb40: traits: 8589934593, {{28.8, 107.0}, {130.0, 130.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000170800: traits: 8589934593, {{335.0, 74.0}, {25.0, 25.0}}, label: '',
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000366840: traits: 8589934593, {{216.2, 107.0}, {130.0, 130.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000363d80: traits: 8589934593, {{0.0, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000361e00: traits: 8589934593, {{93.8, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x60800016d200: traits: 8589934593, {{187.5, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000363540: traits: 8589934593, {{281.2, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000362880: traits: 8589934593, {{0.0, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x6080003660c0: traits: 8589934593, {{93.8, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000360480: traits: 8589934593, {{187.5, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000362d00: traits: 8589934593, {{281.2, 391.1}, {93.8, 75.0}}
+[debug] [WebDriverAgent] Sim: 	)} /usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[debug] [WebDriverAgent] Sim: Mar 14 15:59:42 yuxius-MB XCTRunner[31558]: Enqueue Failure: UI Testing Failure - No matches found for Button
+[debug] [WebDriverAgent] Sim: 	Query input was {(
+[debug] [WebDriverAgent] Sim: 	    Button 0x60800036a2c0: traits: 8589934593, {{15.0, 74.0}, {25.0, 25.0}}, label: '',
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000173740: traits: 8589934593, {{28.8, 107.0}, {130.0, 130.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000364380: traits: 8589934593, {{335.0, 74.0}, {25.0, 25.0}}, label: '',
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000363240: traits: 8589934593, {{216.2, 107.0}, {130.0, 130.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000365c40: traits: 8589934593, {{0.0, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000366300: traits: 8589934593, {{93.8, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x6000003630c0: traits: 8589934593, {{187.5, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x6000003690c0: traits: 8589934593, {{281.2, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000364d40: traits: 8589934593, {{0.0, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x6000003633c0: traits: 8589934593, {{93.8, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000369780: traits: 8589934593, {{187.5, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000363900: traits: 8589934593, {{281.2, 391.1}, {93.8, 75.0}}
+[debug] [WebDriverAgent] Sim: 	)} /usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[debug] [WebDriverAgent] Sim: Mar 14 15:59:45 yuxius-MB XCTRunner[31558]: Enqueue Failure: UI Testing Failure - No matches found for Button
+[debug] [WebDriverAgent] Sim: 	Query input was {(
+[debug] [WebDriverAgent] Sim: 	    Button 0x60000036d200: traits: 8589934593, {{15.0, 74.0}, {25.0, 25.0}}, label: '',
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000363540: traits: 8589934593, {{28.8, 107.0}, {130.0, 130.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000177e80: traits: 8589934593, {{335.0, 74.0}, {25.0, 25.0}}, label: '',
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000361440: traits: 8589934593, {{216.2, 107.0}, {130.0, 130.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000174c40: traits: 8589934593, {{0.0, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000174a00: traits: 8589934593, {{93.8, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x60800017cbc0: traits: 8589934593, {{187.5, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x60800016ce40: traits: 8589934593, {{281.2, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000362280: traits: 8589934593, {{0.0, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x60000016d380: traits: 8589934593, {{93.8, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x6000001708c0: traits: 8589934593, {{187.5, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000369cc0: traits: 8589934593, {{281.2, 391.1}, {93.8, 75.0}}
+[debug] [WebDriverAgent] Sim: 	)} /usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[debug] [WebDriverAgent] Sim: Mar 14 15:59:47 yuxius-MB XCTRunner[31558]: Enqueue Failure: UI Testing Failure - No matches found for Button
+[debug] [WebDriverAgent] Sim: 	Query input was {(
+[debug] [WebDriverAgent] Sim: 	    Button 0x60000036b040: traits: 8589934593, {{15.0, 74.0}, {25.0, 25.0}}, label: '',
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000171e80: traits: 8589934593, {{28.8, 107.0}, {130.0, 130.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000360f00: traits: 8589934593, {{335.0, 74.0}, {25.0, 25.0}}, label: '',
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000367740: traits: 8589934593, {{216.2, 107.0}, {130.0, 130.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x6080003678c0: traits: 8589934593, {{0.0, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x6080003609c0: traits: 8589934593, {{93.8, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000178000: traits: 8589934593, {{187.5, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000363a80: traits: 8589934593, {{281.2, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000366e40: traits: 8589934593, {{0.0, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000176200: traits: 8589934593, {{93.8, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000367380: traits: 8589934593, {{187.5, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000361bc0: traits: 8589934593, {{281.2, 391.1}, {93.8, 75.0}}
+[debug] [WebDriverAgent] Sim: 	)} /usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[debug] [WebDriverAgent] Sim: Mar 14 15:59:49 yuxius-MB XCTRunner[31558]: Enqueue Failure: UI Testing Failure - No matches found for Button
+[debug] [WebDriverAgent] Sim: 	Query input was {(
+[debug] [WebDriverAgent] Sim: 	    Button 0x60000036dec0: traits: 8589934593, {{15.0, 74.0}, {25.0, 25.0}}, label: '',
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000366180: traits: 8589934593, {{28.8, 107.0}, {130.0, 130.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x60000036b940: traits: 8589934593, {{335.0, 74.0}, {25.0, 25.0}}, label: '',
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000366780: traits: 8589934593, {{216.2, 107.0}, {130.0, 130.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000365940: traits: 8589934593, {{0.0, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000366000: traits: 8589934593, {{93.8, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x60000016bf40: traits: 8589934593, {{187.5, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x6000003672c0: traits: 8589934593, {{281.2, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000364f80: traits: 8589934593, {{0.0, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000366b40: traits: 8589934593, {{93.8, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000367b00: traits: 8589934593, {{187.5, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000361ec0: traits: 8589934593, {{281.2, 391.1}, {93.8, 75.0}}
+[debug] [WebDriverAgent] Sim: 	)} /usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[debug] [WebDriverAgent] Sim: Mar 14 15:59:52 yuxius-MB XCTRunner[31558]: Enqueue Failure: UI Testing Failure - No matches found for Button
+[debug] [WebDriverAgent] Sim: 	Query input was {(
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000370740: traits: 8589934593, {{15.0, 74.0}, {25.0, 25.0}}, label: '',
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000370980: traits: 8589934593, {{28.8, 107.0}, {130.0, 130.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000361b00: traits: 8589934593, {{335.0, 74.0}, {25.0, 25.0}}, label: '',
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000176d40: traits: 8589934593, {{216.2, 107.0}, {130.0, 130.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000361800: traits: 8589934593, {{0.0, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000370bc0: traits: 8589934593, {{93.8, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x6000003711c0: traits: 8589934593, {{187.5, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000371580: traits: 8589934593, {{281.2, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000371940: traits: 8589934593, {{0.0, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000371d00: traits: 8589934593, {{93.8, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x6000003720c0: traits: 8589934593, {{187.5, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000372480: traits: 8589934593, {{281.2, 391.1}, {93.8, 75.0}}
+[debug] [WebDriverAgent] Sim: 	)} /usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[debug] [WebDriverAgent] Sim: Mar 14 15:59:55 yuxius-MB XCTRunner[31558]: Enqueue Failure: UI Testing Failure - No matches found for Button
+[debug] [WebDriverAgent] Sim: 	Query input was {(
+[debug] [WebDriverAgent] Sim: 	    Button 0x6000003684c0: traits: 8589934593, {{15.0, 74.0}, {25.0, 25.0}}, label: '',
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000363b40: traits: 8589934593, {{28.8, 107.0}, {130.0, 130.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000369a80: traits: 8589934593, {{335.0, 74.0}, {25.0, 25.0}}, label: '',
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000366f00: traits: 8589934593, {{216.2, 107.0}, {130.0, 130.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000365ac0: traits: 8589934593, {{0.0, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x60000036d8c0: traits: 8589934593, {{93.8, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x60800016fb40: traits: 8589934593, {{187.5, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000367140: traits: 8589934593, {{281.2, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x60000036d5c0: traits: 8589934593, {{0.0, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x60800017f740: traits: 8589934593, {{93.8, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000366000: traits: 8589934593, {{187.5, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x60800017cbc0: traits: 8589934593, {{281.2, 391.1}, {93.8, 75.0}}
+[debug] [WebDriverAgent] Sim: 	)} /usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[debug] [WebDriverAgent] Sim: Mar 14 15:59:57 yuxius-MB XCTRunner[31558]: Enqueue Failure: UI Testing Failure - No matches found for Button
+[debug] [WebDriverAgent] Sim: 	Query input was {(
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000360840: traits: 8589934593, {{15.0, 74.0}, {25.0, 25.0}}, label: '',
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000363480: traits: 8589934593, {{28.8, 107.0}, {130.0, 130.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x60800017cf80: traits: 8589934593, {{335.0, 74.0}, {25.0, 25.0}}, label: '',
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000170680: traits: 8589934593, {{216.2, 107.0}, {130.0, 130.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000362ac0: traits: 8589934593, {{0.0, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000361e00: traits: 8589934593, {{93.8, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000175300: traits: 8589934593, {{187.5, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000179380: traits: 8589934593, {{281.2, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000366f00: traits: 8589934593, {{0.0, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000363b40: traits: 8589934593, {{93.8, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000365040: traits: 8589934593, {{187.5, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x608000363180: traits: 8589934593, {{281.2, 391.1}, {93.8, 75.0}}
+[debug] [WebDriverAgent] Sim: 	)} /usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[debug] [WebDriverAgent] Sim: Mar 14 16:00:00 yuxius-MB XCTRunner[31558]: Enqueue Failure: UI Testing Failure - No matches found for Button
+[debug] [WebDriverAgent] Sim: 	Query input was {(
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000366780: traits: 8589934593, {{15.0, 74.0}, {25.0, 25.0}}, label: '',
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000363d80: traits: 8589934593, {{28.8, 107.0}, {130.0, 130.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000171340: traits: 8589934593, {{335.0, 74.0}, {25.0, 25.0}}, label: '',
+[debug] [WebDriverAgent] Sim: 	    Button 0x60000036a5c0: traits: 8589934593, {{216.2, 107.0}, {130.0, 130.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x60000036ac80: traits: 8589934593, {{0.0, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000365640: traits: 8589934593, {{93.8, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000172cc0: traits: 8589934593, {{187.5, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000178540: traits: 8589934593, {{281.2, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000178900: traits: 8589934593, {{0.0, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x60000036dd40: traits: 8589934593, {{93.8, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x60000036e4c0: traits: 8589934593, {{187.5, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x60000036eb80: traits: 8589934593, {{281.2, 391.1}, {93.8, 75.0}}
+[debug] [WebDriverAgent] Sim: 	)} /usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[debug] [WebDriverAgent] Sim: Mar 14 16:00:02 yuxius-MB XCTRunner[31558]: Enqueue Failure: UI Testing Failure - No matches found for Button
+[debug] [WebDriverAgent] Sim: 	Query input was {(
+[debug] [WebDriverAgent] Sim: 	    Button 0x6000001729c0: traits: 8589934593, {{15.0, 74.0}, {25.0, 25.0}}, label: '',
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000172840: traits: 8589934593, {{28.8, 107.0}, {130.0, 130.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x60000036b580: traits: 8589934593, {{335.0, 74.0}, {25.0, 25.0}}, label: '',
+[debug] [WebDriverAgent] Sim: 	    Button 0x6000001720c0: traits: 8589934593, {{216.2, 107.0}, {130.0, 130.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x6000003675c0: traits: 8589934593, {{0.0, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000368e80: traits: 8589934593, {{93.8, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000176ec0: traits: 8589934593, {{187.5, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x60000036d200: traits: 8589934593, {{281.2, 297.4}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000177880: traits: 8589934593, {{0.0, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x600000366240: traits: 8589934593, {{93.8, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x60000036d980: traits: 8589934593, {{187.5, 391.1}, {93.8, 75.0}},
+[debug] [WebDriverAgent] Sim: 	    Button 0x60000036f540: traits: 8589934593, {{281.2, 391.1}, {93.8, 75.0}}
+[debug] [WebDriverAgent] Sim: 	)} /usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[debug] [JSONWP Proxy] Got response with status 200: {"value":[{"ELEMENT":"C95E0664-F501-43E0-B1C9-5299037C1677","type":"XCUIElementTypeButton","label":""},{"ELEMENT":"8EF21653-2A43-4A3C-89F3-B8ED6EFF0E20","type":"XCUIElementTypeButton","label":null},{"ELEMENT":"E9348AC7-4824-429A-AEE1-FA45BC50681E","type":"XCUIElementTypeButton","label":""},{"ELEMENT":"901BDBEF-4689-4DB7-A25F-E7342296E805","type":"XCUIElementTypeButton","label":null},{"ELEMENT":"32198B67-5892-49BC-888C-76FC87D95E81","type":"XCUIElementTypeButton","label":null},{"ELEMENT":"EF465762-076D-4DE0-85E0-2388CFE2D23E","type":"XCUIElementTypeButton","label":null},{"ELEMENT":"9F718969-64BE-408F-9ABF-2B767D44B517","type":"XCUIElementTypeButton","label":null},{"ELEMENT":"B70BC41A-238F-483B-9E2D-9839902F7C11","type":"XCUIElementTypeButton","label":null},{"ELEMENT":"BE5B80EA-C0A8-48F3-856A-0F48AB22462C","type":"XCUIElementTypeButton","label":null},{"ELEMENT":"5E7E4866-9719-44E4-AABE-CA363C73FE88","type":"XCUIElementTypeButton","label":null},{"ELEMENT":"E72F7B0D-4CFC-421B-A5FC-77E6F6637A06","type":"XCUIE...
+[debug] [MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"C95E0664-F501-43E0-B1C9-5299037C1677","type":"XCUIElementTypeButton","label":""},{"ELEMENT":"8EF21653-2A43-4A3C-89F3-B8ED6EFF0E20","type":"XCUIElementTypeButton","label":null},{"ELEMENT":"E9348AC7-4824-429A-AEE1-FA45BC50681E","type":"XCUIElementTypeButton","label":""},{"ELEMENT":"901BDBEF-4689-4DB7-A25F-E7342296E805","type":"XCUIElementTypeButton","label":null},{"ELEMENT":"32198B67-5892-49BC-888C-76FC87D95E81","type":"XCUIElementTypeButton","label":null},{"ELEMENT":"EF465762-076D-4DE0-85E0-2388CFE2D23E","type":"XCUIElementTypeButton","label":null},{"ELEMENT":"9F718969-64BE-408F-9ABF-2B767D44B517","type":"XCUIElementTypeButton","label":null},{"ELEMENT":"B70BC41A-238F-483B-9E2D-9839902F7C11","type":"XCUIElementTypeButton","label":null},{"ELEMENT":"BE5B80EA-C0A8-48F3-856A-0F48AB22462C","type":"XCUIElementTypeButton","label":null},{"ELEMENT":"5E7E4866-9719-44E4-AABE-CA363C73FE88","type":"XCUIElementTypeButton","label":null},{"ELEMENT":"E72F7B0D-4CFC-421B-A5FC-77E6F6637A06","type":"XCUIElementTyp...
+[HTTP] <-- POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/elements 200 72295 ms - 2531 
+[HTTP] --> GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/8EF21653-2A43-4A3C-89F3-B8ED6EFF0E20/displayed {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[debug] [XCUITest] Executing command 'proxyReqRes'
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/8EF21653-2A43-4A3C-89F3-B8ED6EFF0E20/displayed] to [GET http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/element/8EF21653-2A43-4A3C-89F3-B8ED6EFF0E20/displayed] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : true,\n  \"sessionId\" : \"4C47DDE5-DE39-4B3C-88CF-842BB7B124EE\",\n  \"status\" : 0\n}"
+[JSONWP Proxy] Replacing sessionId 4C47DDE5-DE39-4B3C-88CF-842BB7B124EE with 6a537146-c28a-469c-b477-30de85c20936
+[HTTP] <-- GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/8EF21653-2A43-4A3C-89F3-B8ED6EFF0E20/displayed 200 325 ms - 76 
+[HTTP] --> GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/screenshot {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[debug] [XCUITest] Executing command 'proxyReqRes'
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/screenshot] to [GET http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/screenshot] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : \"iVBORw0KGgoAAAANSUhEUgAAAu4AAAU2CAYAAADK1zMGAAAAAXNSR0IArs4c6QAA\\r\\nABxpRE9UAAAAAgAAAAAAAAKbAAAAKAAAApsAAAKbAAJVBTWHqD0AAEAASURBVHgB\\r\\n7F0HnBRF9jbnnAPmLDlndpclLCy75LTLknMUDAiSBNOJ4nnmiHp3pvt75pyznhhR\\r\\nUcyIiopIEgnq+7+vZt9sTW\\/3TPfkgde\\/X01191RVv676uvqr169ebbfddtuRBq0D\\r\\nxYBiQDGgGFAMKAYUA4oBxUDWYyDrBdSBhQ6uFAOKAcWAYkAxoBhQDCgGFAM6stKB\\r\\ni2JAMaAYUAwoBhQDigHFgGIgJzCQE0LqCEtH2YoBxYBiQDGgGFAMKAYUA9s6BpS4\\r\\n6whTMaAYUAwoBhQDigHFgGJAMZADGNBGyoFG2tZHl3r\\/qmFRDCgGFAOKAcWAYkAx\\r\\noKRVBy6KAcWAYkAxoBhQDCgGFAOKgZzAQE4IqSMsHWUrBhQDigHFgGJAMaAYUAxs\\r\\n6xhQ4q4jTMWAYkAxoBhQDCgGFAOKAcVADmBAGykHGmlbH13q\\/auGRTGgGFAMKAYU\\r\\nA4oBxYCSVh24KAYUA4oBxYBiQDGgGFAMKAbSh4G8vLx4ByHJE3L33XenZs2ambDf\\r\\nfvvFK1Ba8h1xxBH0wQcf0GuvvUaQO9vButNOO1GHDh3o4osvpqeeeoq++uorWr16\\r\\nNf31118mxjHO43+kQ\\/psvyeVL3nPntbl1lWXRx99tHmO0U\\/F07aJ5o\\/nmppn68Kg\\r\\ntqe2Zzox0L9\\/f3rrrbcMpwGvycYA+SBnMuqlVq1adPnll8dbVuLgnDRpEn300Uf0\\r\\nxx9\\/RFT2J598Qr17945XsJTmKysrC8vaqlWrlF4rkUbGCxiN+\\/PPP4fltQFNvNnH\\r\\ns...
+[JSONWP Proxy] Replacing sessionId 4C47DDE5-DE39-4B3C-88CF-842BB7B124EE with 6a537146-c28a-469c-b477-30de85c20936
+[HTTP] <-- GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/screenshot 200 54 ms - 291610 
+[HTTP] --> GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/screenshot {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[debug] [XCUITest] Executing command 'proxyReqRes'
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/screenshot] to [GET http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/screenshot] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : \"iVBORw0KGgoAAAANSUhEUgAAAu4AAAU2CAYAAADK1zMGAAAAAXNSR0IArs4c6QAA\\r\\nABxpRE9UAAAAAgAAAAAAAAKbAAAAKAAAApsAAAKbAAJVBTWHqD0AAEAASURBVHgB\\r\\n7F0HnBRF9jbnnAPmLDlndpclLCy75LTLknMUDAiSBNOJ4nnmiHp3pvt75pyznhhR\\r\\nUcyIiopIEgnq+7+vZt9sTW\\/3TPfkgde\\/X01191RVv676uvqr169ebbfddtuRBq0D\\r\\nxYBiQDGgGFAMKAYUA4oBxUDWYyDrBdSBhQ6uFAOKAcWAYkAxoBhQDCgGFAM6stKB\\r\\ni2JAMaAYUAwoBhQDigHFgGIgJzCQE0LqCEtH2YoBxYBiQDGgGFAMKAYUA9s6BpS4\\r\\n6whTMaAYUAwoBhQDigHFgGJAMZADGNBGyoFG2tZHl3r\\/qmFRDCgGFAOKAcWAYkAx\\r\\noKRVBy6KAcWAYkAxoBhQDCgGFAOKgZzAQE4IqSMsHWUrBhQDigHFgGJAMaAYUAxs\\r\\n6xhQ4q4jTMWAYkAxoBhQDCgGFAOKAcVADmBAGykHGmlbH13q\\/auGRTGgGFAMKAYU\\r\\nA4oBxYCSVh24KAYUA4oBxYBiQDGgGFAMKAbSh4G8vLx4ByHJE3L33XenZs2ambDf\\r\\nfvvFK1Ba8h1xxBH0wQcf0GuvvUaQO9vButNOO1GHDh3o4osvpqeeeoq++uorWr16\\r\\nNf31118mxjHO43+kQ\\/psvyeVL3nPntbl1lWXRx99tHmO0U\\/F07aJ5o\\/nmppn68Kg\\r\\ntqe2Zzox0L9\\/f3rrrbcMpwGvycYA+SBnMuqlVq1adPnll8dbVuLgnDRpEn300Uf0\\r\\nxx9\\/RFT2J598Qr17945XsJTmKysrC8vaqlWrlF4rkUbGCxiN+\\/PPP4fltQFNvNnH\\r\\ns...
+[JSONWP Proxy] Replacing sessionId 4C47DDE5-DE39-4B3C-88CF-842BB7B124EE with 6a537146-c28a-469c-b477-30de85c20936
+[HTTP] <-- GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/screenshot 200 54 ms - 291610 
+[HTTP] --> POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/8EF21653-2A43-4A3C-89F3-B8ED6EFF0E20/click {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[debug] [XCUITest] Executing command 'proxyReqRes'
+[debug] [JSONWP Proxy] Proxying [POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/8EF21653-2A43-4A3C-89F3-B8ED6EFF0E20/click] to [POST http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/element/8EF21653-2A43-4A3C-89F3-B8ED6EFF0E20/click] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: {"status":0,"id":"8EF21653-2A43-4A3C-89F3-B8ED6EFF0E20","value":"","sessionId":"4C47DDE5-DE39-4B3C-88CF-842BB7B124EE"}
+[JSONWP Proxy] Replacing sessionId 4C47DDE5-DE39-4B3C-88CF-842BB7B124EE with 6a537146-c28a-469c-b477-30de85c20936
+[HTTP] <-- POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/8EF21653-2A43-4A3C-89F3-B8ED6EFF0E20/click 200 1885 ms - 118 
+[HTTP] --> POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/elements {"using":"name","value":"立即购买"}
+[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["name","立即购买","6a537146-c28a-469c-b477-30de85c20936"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/elements] with body: {"using":"name","value":"立即购买"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":[{"ELEMENT":"246757BD-B0D8-4595-A921-FF7148B738E3","type":"XCUIElementTypeStaticText","label":"立即购买"}],"sessionId":"4C47DDE5-DE39-4B3C-88CF-842BB7B124EE","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"246757BD-B0D8-4595-A921-FF7148B738E3","type":"XCUIElementTypeStaticText","label":"立即购买"}]
+[HTTP] <-- POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/elements 200 698 ms - 182 
+[HTTP] --> GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/246757BD-B0D8-4595-A921-FF7148B738E3/displayed {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[debug] [XCUITest] Executing command 'proxyReqRes'
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/246757BD-B0D8-4595-A921-FF7148B738E3/displayed] to [GET http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/element/246757BD-B0D8-4595-A921-FF7148B738E3/displayed] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : true,\n  \"sessionId\" : \"4C47DDE5-DE39-4B3C-88CF-842BB7B124EE\",\n  \"status\" : 0\n}"
+[JSONWP Proxy] Replacing sessionId 4C47DDE5-DE39-4B3C-88CF-842BB7B124EE with 6a537146-c28a-469c-b477-30de85c20936
+[HTTP] <-- GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/246757BD-B0D8-4595-A921-FF7148B738E3/displayed 200 263 ms - 76 
+[HTTP] --> GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/screenshot {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[debug] [XCUITest] Executing command 'proxyReqRes'
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/screenshot] to [GET http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/screenshot] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : \"iVBORw0KGgoAAAANSUhEUgAAAu4AAAU2CAYAAADK1zMGAAAAAXNSR0IArs4c6QAA\\r\\nABxpRE9UAAAAAgAAAAAAAAKbAAAAKAAAApsAAAKbAAG9sW1qGBUAAEAASURBVHgB\\r\\n7J0FnFtl1sbbUlyKa7HF3QqUFndngYXFXRcWWVhY9MOtFChVSvG2QClQV+puU2\\/H\\r\\nNZPx2Gj1fM+5mZveySRjmcncJE\\/6O72RK+8975M7\\/3ty3vN26NChg9DoA2qAGqAG\\r\\nqAFqgBqgBqgBasD2GrB9A3ljwZsraoAaoAaoAWqAGqAGqAFqgHdWvHGhBqgBaoAa\\r\\noAaoAWqAGqAGYkIDMdFI3mHxLpsaoAaoAWqAGqAGqAFqINE1QHDnHSY1QA1QA9QA\\r\\nNUANUAPUADUQAxpgJ8VAJyX63SXPnxEWaoAaoAaoAWqAGqAGCK28caEGqAFqgBqg\\r\\nBqgBaoAaoAZiQgMx0UjeYfEumxqgBqgBaoAaoAaoAWog0TVAcOcdJjVADVAD1AA1\\r\\nQA1QA9QANRADGmAnxUAnJfrdJc+fERZqgBqgBqgBaoAaoAYIrbxxoQaoAWqAGqAG\\r\\nqAFqgBqgBqKngYsuuqilNyGt18idd95Zunfvbtiee+7Z0gZFZbuDDz5YVq1aJfPn\\r\\nzxdtt93F2rlzZ7nyyivlww8\\/lClTpkhWVpZ4PB7ZunWrsdTX+r5+ruvp+nY\\/J7av\\r\\n9b579GV8+fKwww4zvsd6nWpJ30a6fUuOyW3iS4PsT\\/ZnNDVw5513ypIlSwymUa6x\\r\\no2n7tJ2t4ZeTTz5Zevfu3dJ9RS7OZ599VtauXSubN2+u4+zk5GS57bbbWtqwNt3u\\r\\nrrvuCrT1\\/PPPb9NjRdLJ+gdYO7ekpCTQXqugBQ\\/ra\\/O5rq\\/b6faRHJ\\/bRv79oA\\/j\\r...
+[JSONWP Proxy] Replacing sessionId 4C47DDE5-DE39-4B3C-88CF-842BB7B124EE with 6a537146-c28a-469c-b477-30de85c20936
+[HTTP] <-- GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/screenshot 200 43 ms - 239254 
+[HTTP] --> GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/screenshot {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[debug] [XCUITest] Executing command 'proxyReqRes'
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/screenshot] to [GET http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/screenshot] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : \"iVBORw0KGgoAAAANSUhEUgAAAu4AAAU2CAYAAADK1zMGAAAAAXNSR0IArs4c6QAA\\r\\nABxpRE9UAAAAAgAAAAAAAAKbAAAAKAAAApsAAAKbAAG9sW1qGBUAAEAASURBVHgB\\r\\n7J0FnFtl1sbbUlyKa7HF3QqUFndngYXFXRcWWVhY9MOtFChVSvG2QClQV+puU2\\/H\\r\\nNZPx2Gj1fM+5mZveySRjmcncJE\\/6O72RK+8975M7\\/3ty3vN26NChg9DoA2qAGqAG\\r\\nqAFqgBqgBqgBasD2GrB9A3ljwZsraoAaoAaoAWqAGqAGqAFqgHdWvHGhBqgBaoAa\\r\\noAaoAWqAGqAGYkIDMdFI3mHxLpsaoAaoAWqAGqAGqAFqINE1QHDnHSY1QA1QA9QA\\r\\nNUANUAPUADUQAxpgJ8VAJyX63SXPnxEWaoAaoAaoAWqAGqAGCK28caEGqAFqgBqg\\r\\nBqgBaoAaoAZiQgMx0UjeYfEumxqgBqgBaoAaoAaoAWog0TVAcOcdJjVADVAD1AA1\\r\\nQA1QA9QANRADGmAnxUAnJfrdJc+fERZqgBqgBqgBaoAaoAYIrbxxoQaoAWqAGqAG\\r\\nqAFqgBqgBqKngYsuuqilNyGt18idd95Zunfvbtiee+7Z0gZFZbuDDz5YVq1aJfPn\\r\\nzxdtt93F2rlzZ7nyyivlww8\\/lClTpkhWVpZ4PB7ZunWrsdTX+r5+ruvp+nY\\/J7av\\r\\n9b579GV8+fKwww4zvsd6nWpJ30a6fUuOyW3iS4PsT\\/ZnNDVw5513ypIlSwymUa6x\\r\\no2n7tJ2t4ZeTTz5Zevfu3dJ9RS7OZ599VtauXSubN2+u4+zk5GS57bbbWtqwNt3u\\r\\nrrvuCrT1\\/PPPb9NjRdLJ+gdYO7ekpCTQXqugBQ\\/ra\\/O5rq\\/b6faRHJ\\/bRv79oA\\/j\\r...
+[JSONWP Proxy] Replacing sessionId 4C47DDE5-DE39-4B3C-88CF-842BB7B124EE with 6a537146-c28a-469c-b477-30de85c20936
+[HTTP] <-- GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/screenshot 200 46 ms - 239254 
+[HTTP] --> POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/246757BD-B0D8-4595-A921-FF7148B738E3/click {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[debug] [XCUITest] Executing command 'proxyReqRes'
+[debug] [JSONWP Proxy] Proxying [POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/246757BD-B0D8-4595-A921-FF7148B738E3/click] to [POST http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/element/246757BD-B0D8-4595-A921-FF7148B738E3/click] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: {"status":0,"id":"246757BD-B0D8-4595-A921-FF7148B738E3","value":"","sessionId":"4C47DDE5-DE39-4B3C-88CF-842BB7B124EE"}
+[JSONWP Proxy] Replacing sessionId 4C47DDE5-DE39-4B3C-88CF-842BB7B124EE with 6a537146-c28a-469c-b477-30de85c20936
+[HTTP] <-- POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/246757BD-B0D8-4595-A921-FF7148B738E3/click 200 1536 ms - 118 
+[HTTP] --> POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/elements {"using":"name","value":"提交订单"}
+[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["name","提交订单","6a537146-c28a-469c-b477-30de85c20936"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/elements] with body: {"using":"name","value":"提交订单"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":[{"ELEMENT":"D0959E41-A6CB-42A5-B53E-722529B02DF2","type":"XCUIElementTypeStaticText","label":"提交订单"},{"ELEMENT":"CC4AEF9F-B0D3-4DF0-BA06-C96919E6DEF4","type":"XCUIElementTypeLink","label":"提交订单"}],"sessionId":"4C47DDE5-DE39-4B3C-88CF-842BB7B124EE","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"D0959E41-A6CB-42A5-B53E-722529B02DF2","type":"XCUIElementTypeStaticText","label":"提交订单"},{"ELEMENT":"CC4AEF9F-B0D3-4DF0-BA06-C96919E6DEF4","type":"XCUIElementTypeLink","label":"提交订单"}]
+[HTTP] <-- POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/elements 200 557 ms - 285 
+[HTTP] --> GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/D0959E41-A6CB-42A5-B53E-722529B02DF2/displayed {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[debug] [XCUITest] Executing command 'proxyReqRes'
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/D0959E41-A6CB-42A5-B53E-722529B02DF2/displayed] to [GET http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/element/D0959E41-A6CB-42A5-B53E-722529B02DF2/displayed] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : true,\n  \"sessionId\" : \"4C47DDE5-DE39-4B3C-88CF-842BB7B124EE\",\n  \"status\" : 0\n}"
+[JSONWP Proxy] Replacing sessionId 4C47DDE5-DE39-4B3C-88CF-842BB7B124EE with 6a537146-c28a-469c-b477-30de85c20936
+[HTTP] <-- GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/D0959E41-A6CB-42A5-B53E-722529B02DF2/displayed 200 232 ms - 76 
+[HTTP] --> GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/screenshot {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[debug] [XCUITest] Executing command 'proxyReqRes'
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/screenshot] to [GET http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/screenshot] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : \"iVBORw0KGgoAAAANSUhEUgAAAu4AAAU2CAYAAADK1zMGAAAAAXNSR0IArs4c6QAA\\r\\nABxpRE9UAAAAAgAAAAAAAAKbAAAAKAAAApsAAAKbAACwN93dKnoAAEAASURBVHgB\\r\\n7J0J3D1T\\/cdbtO97CSn6a1VJpX1fbVnKll2LkBBFaUEoS9ZUQomyRYiQiAqRrSJl\\r\\n32mzr2H+9z18r\\/PMb+beuctznzv3eZ\\/Xa565z8w5Z868z3dmPufM95x5xCMe8YjM\\r\\nRQbagDagDWgD2oA2oA1oA9rA2NvA2BfQhoWNK21AG9AGtAFtQBvQBrQBbcCWlQ0X\\r\\nbUAb0Aa0AW1AG9AGtAFtoBE20IhC2sKyla0NaAPagDagDWgD2oA2MNttQOFuC1Mb\\r\\n0Aa0AW1AG9AGtAFtQBtogA1YSQ2opNneuvT87WHRBrQBbUAb0Aa0AW1A0WrDRRvQ\\r\\nBrQBbUAb0Aa0AW1AG2iEDTSikLawbGVrA9qANqANaAPagDagDcx2G1C428LUBrQB\\r\\nbUAb0Aa0AW1AG9AGGmADVlIDKmm2ty49f3tYtAFtQBvQBrQBbUAbULTacNEGtAFt\\r\\nQBvQBrQBbUAb0AZGZwPvfOc7+22EDK+QT3jCE7LFFlssX57+9Kf3W6CRpJt77rmz\\r\\nP\\/\\/5z9lpp52WUe5xN9a55por+8AHPpBtt9122QknnJBdfvnl2c0335w98MAD+Zr\\/\\r\\n2c5+4hF\\/3M\\/J8g3v2pPlZLGcb7758uuY+1Q\\/dTto+n6OaZrJskHr0\\/ocpQ2stNJK\\r\\n2VlnnZVrGnTNOC6Uj3IOg8urXvWqbKedduo3r8GNc8MNN8wuuOCC7L777psC+6KL\\r\\nLso+9rGP9VuwaU238sort8v6tre9bVqPNUgl8wCmcv\\/1r3+1y5sadNYK6f\\/xm\\/ik\...
+[JSONWP Proxy] Replacing sessionId 4C47DDE5-DE39-4B3C-88CF-842BB7B124EE with 6a537146-c28a-469c-b477-30de85c20936
+[HTTP] <-- GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/screenshot 200 39 ms - 112926 
+[HTTP] --> GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/screenshot {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[debug] [XCUITest] Executing command 'proxyReqRes'
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/screenshot] to [GET http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/screenshot] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : \"iVBORw0KGgoAAAANSUhEUgAAAu4AAAU2CAYAAADK1zMGAAAAAXNSR0IArs4c6QAA\\r\\nABxpRE9UAAAAAgAAAAAAAAKbAAAAKAAAApsAAAKbAACwN93dKnoAAEAASURBVHgB\\r\\n7J0J3D1T\\/cdbtO97CSn6a1VJpX1fbVnKll2LkBBFaUEoS9ZUQomyRYiQiAqRrSJl\\r\\n32mzr2H+9z18r\\/PMb+beuctznzv3eZ\\/Xa565z8w5Z868z3dmPufM95x5xCMe8YjM\\r\\nRQbagDagDWgD2oA2oA1oA9rA2NvA2BfQhoWNK21AG9AGtAFtQBvQBrQBbcCWlQ0X\\r\\nbUAb0Aa0AW1AG9AGtAFtoBE20IhC2sKyla0NaAPagDagDWgD2oA2MNttQOFuC1Mb\\r\\n0Aa0AW1AG9AGtAFtQBtogA1YSQ2opNneuvT87WHRBrQBbUAb0Aa0AW1A0WrDRRvQ\\r\\nBrQBbUAb0Aa0AW1AG2iEDTSikLawbGVrA9qANqANaAPagDagDcx2G1C428LUBrQB\\r\\nbUAb0Aa0AW1AG9AGGmADVlIDKmm2ty49f3tYtAFtQBvQBrQBbUAbULTacNEGtAFt\\r\\nQBvQBrQBbUAb0AZGZwPvfOc7+22EDK+QT3jCE7LFFlssX57+9Kf3W6CRpJt77rmz\\r\\nP\\/\\/5z9lpp52WUe5xN9a55por+8AHPpBtt9122QknnJBdfvnl2c0335w98MAD+Zr\\/\\r\\n2c5+4hF\\/3M\\/J8g3v2pPlZLGcb7758uuY+1Q\\/dTto+n6OaZrJskHr0\\/ocpQ2stNJK\\r\\n2VlnnZVrGnTNOC6Uj3IOg8urXvWqbKedduo3r8GNc8MNN8wuuOCC7L777psC+6KL\\r\\nLso+9rGP9VuwaU238sort8v6tre9bVqPNUgl8wCmcv\\/1r3+1y5sadNYK6f\\/xm\\/ik\...
+[JSONWP Proxy] Replacing sessionId 4C47DDE5-DE39-4B3C-88CF-842BB7B124EE with 6a537146-c28a-469c-b477-30de85c20936
+[HTTP] <-- GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/screenshot 200 34 ms - 112926 
+[HTTP] --> POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/D0959E41-A6CB-42A5-B53E-722529B02DF2/click {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[debug] [XCUITest] Executing command 'proxyReqRes'
+[debug] [JSONWP Proxy] Proxying [POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/D0959E41-A6CB-42A5-B53E-722529B02DF2/click] to [POST http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/element/D0959E41-A6CB-42A5-B53E-722529B02DF2/click] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: {"status":0,"id":"D0959E41-A6CB-42A5-B53E-722529B02DF2","value":"","sessionId":"4C47DDE5-DE39-4B3C-88CF-842BB7B124EE"}
+[JSONWP Proxy] Replacing sessionId 4C47DDE5-DE39-4B3C-88CF-842BB7B124EE with 6a537146-c28a-469c-b477-30de85c20936
+[HTTP] <-- POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/D0959E41-A6CB-42A5-B53E-722529B02DF2/click 200 1399 ms - 118 
+[HTTP] --> POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/elements {"using":"name","value":"支付宝支付"}
+[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["name","支付宝支付","6a537146-c28a-469c-b477-30de85c20936"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/elements] with body: {"using":"name","value":"支付宝支付"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":[{"ELEMENT":"36F87256-D82B-4A08-AB48-47C62B1E9786","type":"XCUIElementTypeStaticText","label":"支付宝支付"}],"sessionId":"4C47DDE5-DE39-4B3C-88CF-842BB7B124EE","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"36F87256-D82B-4A08-AB48-47C62B1E9786","type":"XCUIElementTypeStaticText","label":"支付宝支付"}]
+[HTTP] <-- POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/elements 200 275 ms - 185 
+[HTTP] --> POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/elements {"using":"accessibility id","value":"返回上一级"}
+[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["accessibility id","返回上一级","6a537146-c28a-469c-b477-30de85c20936"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/elements] with body: {"using":"accessibility id","value":"返回上一级"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":[{"ELEMENT":"AE238412-A2F9-4B4E-8817-1E4BDD4689BA","type":"XCUIElementTypeStaticText","label":""}],"sessionId":"4C47DDE5-DE39-4B3C-88CF-842BB7B124EE","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"AE238412-A2F9-4B4E-8817-1E4BDD4689BA","type":"XCUIElementTypeStaticText","label":""}]
+[HTTP] <-- POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/elements 200 288 ms - 173 
+[HTTP] --> GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/AE238412-A2F9-4B4E-8817-1E4BDD4689BA/displayed {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[debug] [XCUITest] Executing command 'proxyReqRes'
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/AE238412-A2F9-4B4E-8817-1E4BDD4689BA/displayed] to [GET http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/element/AE238412-A2F9-4B4E-8817-1E4BDD4689BA/displayed] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : true,\n  \"sessionId\" : \"4C47DDE5-DE39-4B3C-88CF-842BB7B124EE\",\n  \"status\" : 0\n}"
+[JSONWP Proxy] Replacing sessionId 4C47DDE5-DE39-4B3C-88CF-842BB7B124EE with 6a537146-c28a-469c-b477-30de85c20936
+[HTTP] <-- GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/AE238412-A2F9-4B4E-8817-1E4BDD4689BA/displayed 200 144 ms - 76 
+[HTTP] --> GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/screenshot {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[debug] [XCUITest] Executing command 'proxyReqRes'
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/screenshot] to [GET http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/screenshot] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : \"iVBORw0KGgoAAAANSUhEUgAAAu4AAAU2CAYAAADK1zMGAAAAAXNSR0IArs4c6QAA\\r\\nABxpRE9UAAAAAgAAAAAAAAKbAAAAKAAAApsAAAKbAAB2i4KqpRUAAEAASURBVHgB\\r\\n7N0JvH3XfP9\\/iUgIEjIhIpSaiSFIqH9Kidb8KI0WRZW2\\/EpVtfX71cOvVH8\\/089c\\r\\ntFQS8zyPCUkQUVNiJhIZSESIMYbEuP\\/3fWqdx\\/6enHPPePfd697nejzOPeees\\/de\\r\\na78\\/r33O+7P22mtf6lKXulTjQQMMYAADGMAABjCAAQz0noHeN1BiIbnCAAYwgAEM\\r\\nYAADGMCAzEriggEMYAADGMAABjCAgSoYqKKRMixZNgYwgAEMYAADGMDAdmeAcZdh\\r\\nYgADGMAABjCAAQxgoAIGBKmCIG337NL+62HBAAYwgAEMYAADTKvEBQMYwAAGMIAB\\r\\nDGAAA1UwUEUjZViybAxgAAMYwAAGMICB7c4A4y7DxAAGMIABDGAAAxjAQAUMCFIF\\r\\nQdru2aX918OCAQxgAAMYwAAGmFaJCwYwgAEMYAADGMAABrpj4Hd\\/93cXTUJW18jL\\r\\nXe5yzaGHHjp4XOlKV1q0QZ2st\\/\\/++zef+9znmo9+9KNN2t13WHfZZZfmLne5S\\/PU\\r\\npz61OfbYY5uzzjqr+cEPftD8+te\\/Hjzn\\/7yfz7Nclu\\/7Pmnf6o49Wm4tLQ888MDB\\r\\ncZzvqUViu+z6i9Rpna3FoHiKZ5cM3P\\/+928++clPDjxNfE0fH2lf2rkKXW5yk5s0\\r\\nz3rWsxbd1vJwPuYxj2m++MUvNr\\/85S93EPvUU09tjjjiiEUbtqHrPeABDxi29fa3\\r\\nv\\/2G1rVMkPMDnOBecMEFw\\/a2gW7WSvv\\/8jrLZ72sv0z91l3++KDh1...
+[JSONWP Proxy] Replacing sessionId 4C47DDE5-DE39-4B3C-88CF-842BB7B124EE with 6a537146-c28a-469c-b477-30de85c20936
+[HTTP] <-- GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/screenshot 200 34 ms - 66254 
+[HTTP] --> GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/screenshot {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[debug] [XCUITest] Executing command 'proxyReqRes'
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/screenshot] to [GET http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/screenshot] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : \"iVBORw0KGgoAAAANSUhEUgAAAu4AAAU2CAYAAADK1zMGAAAAAXNSR0IArs4c6QAA\\r\\nABxpRE9UAAAAAgAAAAAAAAKbAAAAKAAAApsAAAKbAAB2i4KqpRUAAEAASURBVHgB\\r\\n7N0JvH3XfP9\\/iUgIEjIhIpSaiSFIqH9Kidb8KI0WRZW2\\/EpVtfX71cOvVH8\\/089c\\r\\ntFQS8zyPCUkQUVNiJhIZSESIMYbEuP\\/3fWqdx\\/6enHPPePfd697nejzOPeees\\/de\\r\\na78\\/r33O+7P22mtf6lKXulTjQQMMYAADGMAABjCAAQz0noHeN1BiIbnCAAYwgAEM\\r\\nYAADGMCAzEriggEMYAADGMAABjCAgSoYqKKRMixZNgYwgAEMYAADGMDAdmeAcZdh\\r\\nYgADGMAABjCAAQxgoAIGBKmCIG337NL+62HBAAYwgAEMYAADTKvEBQMYwAAGMIAB\\r\\nDGAAA1UwUEUjZViybAxgAAMYwAAGMICB7c4A4y7DxAAGMIABDGAAAxjAQAUMCFIF\\r\\nQdru2aX918OCAQxgAAMYwAAGmFaJCwYwgAEMYAADGMAABrpj4Hd\\/93cXTUJW18jL\\r\\nXe5yzaGHHjp4XOlKV1q0QZ2st\\/\\/++zef+9znmo9+9KNN2t13WHfZZZfmLne5S\\/PU\\r\\npz61OfbYY5uzzjqr+cEPftD8+te\\/Hjzn\\/7yfz7Nclu\\/7Pmnf6o49Wm4tLQ888MDB\\r\\ncZzvqUViu+z6i9Rpna3FoHiKZ5cM3P\\/+928++clPDjxNfE0fH2lf2rkKXW5yk5s0\\r\\nz3rWsxbd1vJwPuYxj2m++MUvNr\\/85S93EPvUU09tjjjiiEUbtqHrPeABDxi29fa3\\r\\nv\\/2G1rVMkPMDnOBecMEFw\\/a2gW7WSvv\\/8jrLZ72sv0z91l3++KDh1...
+[JSONWP Proxy] Replacing sessionId 4C47DDE5-DE39-4B3C-88CF-842BB7B124EE with 6a537146-c28a-469c-b477-30de85c20936
+[HTTP] <-- GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/screenshot 200 41 ms - 66254 
+[HTTP] --> POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/AE238412-A2F9-4B4E-8817-1E4BDD4689BA/click {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[debug] [XCUITest] Executing command 'proxyReqRes'
+[debug] [JSONWP Proxy] Proxying [POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/AE238412-A2F9-4B4E-8817-1E4BDD4689BA/click] to [POST http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/element/AE238412-A2F9-4B4E-8817-1E4BDD4689BA/click] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: {"status":0,"id":"AE238412-A2F9-4B4E-8817-1E4BDD4689BA","value":"","sessionId":"4C47DDE5-DE39-4B3C-88CF-842BB7B124EE"}
+[JSONWP Proxy] Replacing sessionId 4C47DDE5-DE39-4B3C-88CF-842BB7B124EE with 6a537146-c28a-469c-b477-30de85c20936
+[HTTP] <-- POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/AE238412-A2F9-4B4E-8817-1E4BDD4689BA/click 200 946 ms - 118 
+[HTTP] --> POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/elements {"using":"name","value":"关闭"}
+[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["name","关闭","6a537146-c28a-469c-b477-30de85c20936"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/elements] with body: {"using":"name","value":"关闭"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":[{"ELEMENT":"F71C9913-1A75-4D76-9558-70DFF8113B8F","type":"XCUIElementTypeButton","label":"关闭"}],"sessionId":"4C47DDE5-DE39-4B3C-88CF-842BB7B124EE","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"F71C9913-1A75-4D76-9558-70DFF8113B8F","type":"XCUIElementTypeButton","label":"关闭"}]
+[HTTP] <-- POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/elements 200 798 ms - 172 
+[HTTP] --> GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/F71C9913-1A75-4D76-9558-70DFF8113B8F/displayed {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[debug] [XCUITest] Executing command 'proxyReqRes'
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/F71C9913-1A75-4D76-9558-70DFF8113B8F/displayed] to [GET http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/element/F71C9913-1A75-4D76-9558-70DFF8113B8F/displayed] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : true,\n  \"sessionId\" : \"4C47DDE5-DE39-4B3C-88CF-842BB7B124EE\",\n  \"status\" : 0\n}"
+[JSONWP Proxy] Replacing sessionId 4C47DDE5-DE39-4B3C-88CF-842BB7B124EE with 6a537146-c28a-469c-b477-30de85c20936
+[HTTP] <-- GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/F71C9913-1A75-4D76-9558-70DFF8113B8F/displayed 200 255 ms - 76 
+[HTTP] --> GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/screenshot {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[debug] [XCUITest] Executing command 'proxyReqRes'
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/screenshot] to [GET http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/screenshot] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : \"iVBORw0KGgoAAAANSUhEUgAAAu4AAAU2CAYAAADK1zMGAAAAAXNSR0IArs4c6QAA\\r\\nABxpRE9UAAAAAgAAAAAAAAKbAAAAKAAAApsAAAKbAACwN93dKnoAAEAASURBVHgB\\r\\n7J0J3D1T\\/cdbtO97CSn6a1VJpX1fbVnKll2LkBBFaUEoS9ZUQomyRYiQiAqRrSJl\\r\\n32mzr2H+9z18r\\/PMb+beuctznzv3eZ\\/Xa565z8w5Z868z3dmPufM95x5xCMe8YjM\\r\\nRQbagDagDWgD2oA2oA1oA9rA2NvA2BfQhoWNK21AG9AGtAFtQBvQBrQBbcCWlQ0X\\r\\nbUAb0Aa0AW1AG9AGtAFtoBE20IhC2sKyla0NaAPagDagDWgD2oA2MNttQOFuC1Mb\\r\\n0Aa0AW1AG9AGtAFtQBtogA1YSQ2opNneuvT87WHRBrQBbUAb0Aa0AW1A0WrDRRvQ\\r\\nBrQBbUAb0Aa0AW1AG2iEDTSikLawbGVrA9qANqANaAPagDagDcx2G1C428LUBrQB\\r\\nbUAb0Aa0AW1AG9AGGmADVlIDKmm2ty49f3tYtAFtQBvQBrQBbUAbULTacNEGtAFt\\r\\nQBvQBrQBbUAb0AZGZwPvfOc7+22EDK+QT3jCE7LFFlssX57+9Kf3W6CRpJt77rmz\\r\\nP\\/\\/5z9lpp52WUe5xN9a55por+8AHPpBtt9122QknnJBdfvnl2c0335w98MAD+Zr\\/\\r\\n2c5+4hF\\/3M\\/J8g3v2pPlZLGcb7758uuY+1Q\\/dTto+n6OaZrJskHr0\\/ocpQ2stNJK\\r\\n2VlnnZVrGnTNOC6Uj3IOg8urXvWqbKedduo3r8GNc8MNN8wuuOCC7L777psC+6KL\\r\\nLso+9rGP9VuwaU238sort8v6tre9bVqPNUgl8wCmcv\\/1r3+1y5sadNYK6f\\/xm\\/ik\...
+[JSONWP Proxy] Replacing sessionId 4C47DDE5-DE39-4B3C-88CF-842BB7B124EE with 6a537146-c28a-469c-b477-30de85c20936
+[HTTP] <-- GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/screenshot 200 44 ms - 112926 
+[HTTP] --> GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/screenshot {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[debug] [XCUITest] Executing command 'proxyReqRes'
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/screenshot] to [GET http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/screenshot] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : \"iVBORw0KGgoAAAANSUhEUgAAAu4AAAU2CAYAAADK1zMGAAAAAXNSR0IArs4c6QAA\\r\\nABxpRE9UAAAAAgAAAAAAAAKbAAAAKAAAApsAAAKbAACwN93dKnoAAEAASURBVHgB\\r\\n7J0J3D1T\\/cdbtO97CSn6a1VJpX1fbVnKll2LkBBFaUEoS9ZUQomyRYiQiAqRrSJl\\r\\n32mzr2H+9z18r\\/PMb+beuctznzv3eZ\\/Xa565z8w5Z868z3dmPufM95x5xCMe8YjM\\r\\nRQbagDagDWgD2oA2oA1oA9rA2NvA2BfQhoWNK21AG9AGtAFtQBvQBrQBbcCWlQ0X\\r\\nbUAb0Aa0AW1AG9AGtAFtoBE20IhC2sKyla0NaAPagDagDWgD2oA2MNttQOFuC1Mb\\r\\n0Aa0AW1AG9AGtAFtQBtogA1YSQ2opNneuvT87WHRBrQBbUAb0Aa0AW1A0WrDRRvQ\\r\\nBrQBbUAb0Aa0AW1AG2iEDTSikLawbGVrA9qANqANaAPagDagDcx2G1C428LUBrQB\\r\\nbUAb0Aa0AW1AG9AGGmADVlIDKmm2ty49f3tYtAFtQBvQBrQBbUAbULTacNEGtAFt\\r\\nQBvQBrQBbUAb0AZGZwPvfOc7+22EDK+QT3jCE7LFFlssX57+9Kf3W6CRpJt77rmz\\r\\nP\\/\\/5z9lpp52WUe5xN9a55por+8AHPpBtt9122QknnJBdfvnl2c0335w98MAD+Zr\\/\\r\\n2c5+4hF\\/3M\\/J8g3v2pPlZLGcb7758uuY+1Q\\/dTto+n6OaZrJskHr0\\/ocpQ2stNJK\\r\\n2VlnnZVrGnTNOC6Uj3IOg8urXvWqbKedduo3r8GNc8MNN8wuuOCC7L777psC+6KL\\r\\nLso+9rGP9VuwaU238sort8v6tre9bVqPNUgl8wCmcv\\/1r3+1y5sadNYK6f\\/xm\\/ik\...
+[JSONWP Proxy] Replacing sessionId 4C47DDE5-DE39-4B3C-88CF-842BB7B124EE with 6a537146-c28a-469c-b477-30de85c20936
+[HTTP] <-- GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/screenshot 200 43 ms - 112926 
+[HTTP] --> POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/F71C9913-1A75-4D76-9558-70DFF8113B8F/click {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[debug] [XCUITest] Executing command 'proxyReqRes'
+[debug] [JSONWP Proxy] Proxying [POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/F71C9913-1A75-4D76-9558-70DFF8113B8F/click] to [POST http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/element/F71C9913-1A75-4D76-9558-70DFF8113B8F/click] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: {"status":0,"id":"F71C9913-1A75-4D76-9558-70DFF8113B8F","value":"","sessionId":"4C47DDE5-DE39-4B3C-88CF-842BB7B124EE"}
+[JSONWP Proxy] Replacing sessionId 4C47DDE5-DE39-4B3C-88CF-842BB7B124EE with 6a537146-c28a-469c-b477-30de85c20936
+[HTTP] <-- POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/F71C9913-1A75-4D76-9558-70DFF8113B8F/click 200 1172 ms - 118 
+[HTTP] --> POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/elements {"using":"accessibility id","value":"回到首页"}
+[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["accessibility id","回到首页","6a537146-c28a-469c-b477-30de85c20936"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/elements] with body: {"using":"accessibility id","value":"回到首页"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":[{"ELEMENT":"A82CC33B-C1F7-4152-AA2F-A917917B0E93","type":"XCUIElementTypeOther","label":null}],"sessionId":"4C47DDE5-DE39-4B3C-88CF-842BB7B124EE","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"A82CC33B-C1F7-4152-AA2F-A917917B0E93","type":"XCUIElementTypeOther","label":null}]
+[HTTP] <-- POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/elements 200 1065 ms - 167 
+[HTTP] --> GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/A82CC33B-C1F7-4152-AA2F-A917917B0E93/displayed {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[debug] [XCUITest] Executing command 'proxyReqRes'
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/A82CC33B-C1F7-4152-AA2F-A917917B0E93/displayed] to [GET http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/element/A82CC33B-C1F7-4152-AA2F-A917917B0E93/displayed] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : true,\n  \"sessionId\" : \"4C47DDE5-DE39-4B3C-88CF-842BB7B124EE\",\n  \"status\" : 0\n}"
+[JSONWP Proxy] Replacing sessionId 4C47DDE5-DE39-4B3C-88CF-842BB7B124EE with 6a537146-c28a-469c-b477-30de85c20936
+[HTTP] <-- GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/A82CC33B-C1F7-4152-AA2F-A917917B0E93/displayed 200 285 ms - 76 
+[HTTP] --> GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/screenshot {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[debug] [XCUITest] Executing command 'proxyReqRes'
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/screenshot] to [GET http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/screenshot] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : \"iVBORw0KGgoAAAANSUhEUgAAAu4AAAU2CAYAAADK1zMGAAAAAXNSR0IArs4c6QAA\\r\\nABxpRE9UAAAAAgAAAAAAAAKbAAAAKAAAApsAAAKbAAG9sW1qGBUAAEAASURBVHgB\\r\\n7J0FnFtl1sbbUlyKa7HF3QqUFndngYXFXRcWWVhY9MOtFChVSvG2QClQV+puU2\\/H\\r\\nNZPx2Gj1fM+5mZveySRjmcncJE\\/6O72RK+8975M7\\/3ty3vN26NChg9DoA2qAGqAG\\r\\nqAFqgBqgBqgBasD2GrB9A3ljwZsraoAaoAaoAWqAGqAGqAFqgHdWvHGhBqgBaoAa\\r\\noAaoAWqAGqAGYkIDMdFI3mHxLpsaoAaoAWqAGqAGqAFqINE1QHDnHSY1QA1QA9QA\\r\\nNUANUAPUADUQAxpgJ8VAJyX63SXPnxEWaoAaoAaoAWqAGqAGCK28caEGqAFqgBqg\\r\\nBqgBaoAaoAZiQgMx0UjeYfEumxqgBqgBaoAaoAaoAWog0TVAcOcdJjVADVAD1AA1\\r\\nQA1QA9QANRADGmAnxUAnJfrdJc+fERZqgBqgBqgBaoAaoAYIrbxxoQaoAWqAGqAG\\r\\nqAFqgBqgBqKngYsuuqilNyGt18idd95Zunfvbtiee+7Z0gZFZbuDDz5YVq1aJfPn\\r\\nzxdtt93F2rlzZ7nyyivlww8\\/lClTpkhWVpZ4PB7ZunWrsdTX+r5+ruvp+nY\\/J7av\\r\\n9b579GV8+fKwww4zvsd6nWpJ30a6fUuOyW3iS4PsT\\/ZnNDVw5513ypIlSwymUa6x\\r\\no2n7tJ2t4ZeTTz5Zevfu3dJ9RS7OZ599VtauXSubN2+u4+zk5GS57bbbWtqwNt3u\\r\\nrrvuCrT1\\/PPPb9NjRdLJ+gdYO7ekpCTQXqugBQ\\/ra\\/O5rq\\/b6faRHJ\\/bRv79oA\\/j\\r...
+[JSONWP Proxy] Replacing sessionId 4C47DDE5-DE39-4B3C-88CF-842BB7B124EE with 6a537146-c28a-469c-b477-30de85c20936
+[HTTP] <-- GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/screenshot 200 53 ms - 239254 
+[HTTP] --> GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/screenshot {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[debug] [XCUITest] Executing command 'proxyReqRes'
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/screenshot] to [GET http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/screenshot] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : \"iVBORw0KGgoAAAANSUhEUgAAAu4AAAU2CAYAAADK1zMGAAAAAXNSR0IArs4c6QAA\\r\\nABxpRE9UAAAAAgAAAAAAAAKbAAAAKAAAApsAAAKbAAG9sW1qGBUAAEAASURBVHgB\\r\\n7J0FnFtl1sbbUlyKa7HF3QqUFndngYXFXRcWWVhY9MOtFChVSvG2QClQV+puU2\\/H\\r\\nNZPx2Gj1fM+5mZveySRjmcncJE\\/6O72RK+8975M7\\/3ty3vN26NChg9DoA2qAGqAG\\r\\nqAFqgBqgBqgBasD2GrB9A3ljwZsraoAaoAaoAWqAGqAGqAFqgHdWvHGhBqgBaoAa\\r\\noAaoAWqAGqAGYkIDMdFI3mHxLpsaoAaoAWqAGqAGqAFqINE1QHDnHSY1QA1QA9QA\\r\\nNUANUAPUADUQAxpgJ8VAJyX63SXPnxEWaoAaoAaoAWqAGqAGCK28caEGqAFqgBqg\\r\\nBqgBaoAaoAZiQgMx0UjeYfEumxqgBqgBaoAaoAaoAWog0TVAcOcdJjVADVAD1AA1\\r\\nQA1QA9QANRADGmAnxUAnJfrdJc+fERZqgBqgBqgBaoAaoAYIrbxxoQaoAWqAGqAG\\r\\nqAFqgBqgBqKngYsuuqilNyGt18idd95Zunfvbtiee+7Z0gZFZbuDDz5YVq1aJfPn\\r\\nzxdtt93F2rlzZ7nyyivlww8\\/lClTpkhWVpZ4PB7ZunWrsdTX+r5+ruvp+nY\\/J7av\\r\\n9b579GV8+fKwww4zvsd6nWpJ30a6fUuOyW3iS4PsT\\/ZnNDVw5513ypIlSwymUa6x\\r\\no2n7tJ2t4ZeTTz5Zevfu3dJ9RS7OZ599VtauXSubN2+u4+zk5GS57bbbWtqwNt3u\\r\\nrrvuCrT1\\/PPPb9NjRdLJ+gdYO7ekpCTQXqugBQ\\/ra\\/O5rq\\/b6faRHJ\\/bRv79oA\\/j\\r...
+[JSONWP Proxy] Replacing sessionId 4C47DDE5-DE39-4B3C-88CF-842BB7B124EE with 6a537146-c28a-469c-b477-30de85c20936
+[HTTP] <-- GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/screenshot 200 42 ms - 239254 
+[HTTP] --> POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/A82CC33B-C1F7-4152-AA2F-A917917B0E93/click {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[debug] [XCUITest] Executing command 'proxyReqRes'
+[debug] [JSONWP Proxy] Proxying [POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/A82CC33B-C1F7-4152-AA2F-A917917B0E93/click] to [POST http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/element/A82CC33B-C1F7-4152-AA2F-A917917B0E93/click] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: {"status":0,"id":"A82CC33B-C1F7-4152-AA2F-A917917B0E93","value":"","sessionId":"4C47DDE5-DE39-4B3C-88CF-842BB7B124EE"}
+[JSONWP Proxy] Replacing sessionId 4C47DDE5-DE39-4B3C-88CF-842BB7B124EE with 6a537146-c28a-469c-b477-30de85c20936
+[HTTP] <-- POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/A82CC33B-C1F7-4152-AA2F-A917917B0E93/click 200 1242 ms - 118 
+[HTTP] --> POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/elements {"using":"xpath","value":"//XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther[4]"}
+[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["xpath","//XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther[4]","6a537146-c28a-469c-b477-30de85c20936"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/elements] with body: {"using":"xpath","value":"//XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther[4]"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":[{"ELEMENT":"E5F17496-B1F6-4C24-AF4C-8F7B921E0721","type":"XCUIElementTypeOther","label":"tabbarItem"}],"sessionId":"4C47DDE5-DE39-4B3C-88CF-842BB7B124EE","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"E5F17496-B1F6-4C24-AF4C-8F7B921E0721","type":"XCUIElementTypeOther","label":"tabbarItem"}]
+[HTTP] <-- POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/elements 200 841 ms - 175 
+[HTTP] --> GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/E5F17496-B1F6-4C24-AF4C-8F7B921E0721/displayed {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[debug] [XCUITest] Executing command 'proxyReqRes'
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/E5F17496-B1F6-4C24-AF4C-8F7B921E0721/displayed] to [GET http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/element/E5F17496-B1F6-4C24-AF4C-8F7B921E0721/displayed] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : true,\n  \"sessionId\" : \"4C47DDE5-DE39-4B3C-88CF-842BB7B124EE\",\n  \"status\" : 0\n}"
+[JSONWP Proxy] Replacing sessionId 4C47DDE5-DE39-4B3C-88CF-842BB7B124EE with 6a537146-c28a-469c-b477-30de85c20936
+[HTTP] <-- GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/E5F17496-B1F6-4C24-AF4C-8F7B921E0721/displayed 200 168 ms - 76 
+[HTTP] --> GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/screenshot {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[debug] [XCUITest] Executing command 'proxyReqRes'
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/screenshot] to [GET http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/screenshot] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : \"iVBORw0KGgoAAAANSUhEUgAAAu4AAAU2CAYAAADK1zMGAAAAAXNSR0IArs4c6QAA\\r\\nABxpRE9UAAAAAgAAAAAAAAKbAAAAKAAAApsAAAKbAAd5AQ0QxWEAAEAASURBVHgB\\r\\n7J2Ht2RHdfX9TxkQSiNAEVBAEkE5J0SUTBAKBJGRyVHknHPGYLAxYJMMBoONSAac\\r\\nMGCCAxhzv73PPrvqVPXt996MRkL6lnuto8p1b\\/fTzPx6v13n\\/sH5lz9rYVxw+U0R\\r\\n56PciMs053yWCM51nXOjnetavc6t17gM87lH7NOvW\\/dkXfvkdXNvX8vjbU3ur\\/cy\\r\\n3n+\\/lvbUvpqjfVbeW7levM\\/63vJ96TPS56E5\\/V59f\\/PnqPvlZ9c\\/vzpX42VPXys+\\r\\nq\\/xMSl\\/7WbT77fcQ1+Zcj3GP0q7X0s8iPx\\/vz3XlPts+3q+Wuaa9l7gO30fucSnq\\r\\niAviZ4\\/rsL\\/06f+lZ+r\\/CV\\/\\/0s32eeiLwJxWv4R9bGewjfD+ntfbz8DcjEtQIs7H\\r\\nvudn\\/VysVTwDpUN7ct\\/zLuYazEEZwb6IMvfinOc5KM9p8fSoez37o34R+hltHvov\\r\\nwroS516I9oVPW86+SBHzuQZ9tf9szsk450KMX\\/D05ewLso8l4iwGxhSsK7zurAuf\\r\\nijlP1brzMXY+2lOczTb2ObPFU1FHnP+UHuc9ZTmLEX0YQz0CazUv90X\\/GQzMY5x5\\r\\nHuc+dTnj3CdHnHkeSoTXR3+sefLyIPQ\\/6NynKM5BeQ7bjBszUD8HdQf6vS9L9j8w\\r\\n4skoHeg7O8Przn4S+no8APUHnIU5DMxlW+Osz8G5jidG\\/YFo359xZu+\\/\\/1lPRLsG\\r\\nx9E+4wkK1B+AOB3tiDNRIu6f0fpz\\/P5ncG4P7nP...
+[JSONWP Proxy] Replacing sessionId 4C47DDE5-DE39-4B3C-88CF-842BB7B124EE with 6a537146-c28a-469c-b477-30de85c20936
+[HTTP] <-- GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/screenshot 200 100 ms - 824354 
+[HTTP] --> GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/screenshot {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[debug] [XCUITest] Executing command 'proxyReqRes'
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/screenshot] to [GET http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/screenshot] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : \"iVBORw0KGgoAAAANSUhEUgAAAu4AAAU2CAYAAADK1zMGAAAAAXNSR0IArs4c6QAA\\r\\nABxpRE9UAAAAAgAAAAAAAAKbAAAAKAAAApsAAAKbAAd5AQ0QxWEAAEAASURBVHgB\\r\\n7J2Ht2RHdfX9TxkQSiNAEVBAEkE5J0SUTBAKBJGRyVHknHPGYLAxYJMMBoONSAac\\r\\nMGCCAxhzv73PPrvqVPXt996MRkL6lnuto8p1b\\/fTzPx6v13n\\/sH5lz9rYVxw+U0R\\r\\n56PciMs053yWCM51nXOjnetavc6t17gM87lH7NOvW\\/dkXfvkdXNvX8vjbU3ur\\/cy\\r\\n3n+\\/lvbUvpqjfVbeW7levM\\/63vJ96TPS56E5\\/V59f\\/PnqPvlZ9c\\/vzpX42VPXys+\\r\\nq\\/xMSl\\/7WbT77fcQ1+Zcj3GP0q7X0s8iPx\\/vz3XlPts+3q+Wuaa9l7gO30fucSnq\\r\\niAviZ4\\/rsL\\/06f+lZ+r\\/CV\\/\\/0s32eeiLwJxWv4R9bGewjfD+ntfbz8DcjEtQIs7H\\r\\nvudn\\/VysVTwDpUN7ct\\/zLuYazEEZwb6IMvfinOc5KM9p8fSoez37o34R+hltHvov\\r\\nwroS516I9oVPW86+SBHzuQZ9tf9szsk450KMX\\/D05ewLso8l4iwGxhSsK7zurAuf\\r\\nijlP1brzMXY+2lOczTb2ObPFU1FHnP+UHuc9ZTmLEX0YQz0CazUv90X\\/GQzMY5x5\\r\\nHuc+dTnj3CdHnHkeSoTXR3+sefLyIPQ\\/6NynKM5BeQ7bjBszUD8HdQf6vS9L9j8w\\r\\n4skoHeg7O8Przn4S+no8APUHnIU5DMxlW+Osz8G5jidG\\/YFo359xZu+\\/\\/1lPRLsG\\r\\nx9E+4wkK1B+AOB3tiDNRIu6f0fpz\\/P5ncG4P7nP...
+[JSONWP Proxy] Replacing sessionId 4C47DDE5-DE39-4B3C-88CF-842BB7B124EE with 6a537146-c28a-469c-b477-30de85c20936
+[HTTP] <-- GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/screenshot 200 91 ms - 824354 
+[HTTP] --> POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/E5F17496-B1F6-4C24-AF4C-8F7B921E0721/click {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[debug] [XCUITest] Executing command 'proxyReqRes'
+[debug] [JSONWP Proxy] Proxying [POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/E5F17496-B1F6-4C24-AF4C-8F7B921E0721/click] to [POST http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/element/E5F17496-B1F6-4C24-AF4C-8F7B921E0721/click] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: {"status":0,"id":"E5F17496-B1F6-4C24-AF4C-8F7B921E0721","value":"","sessionId":"4C47DDE5-DE39-4B3C-88CF-842BB7B124EE"}
+[JSONWP Proxy] Replacing sessionId 4C47DDE5-DE39-4B3C-88CF-842BB7B124EE with 6a537146-c28a-469c-b477-30de85c20936
+[HTTP] <-- POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/E5F17496-B1F6-4C24-AF4C-8F7B921E0721/click 200 955 ms - 118 
+[HTTP] --> POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/elements {"using":"name","value":"测试入口"}
+[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["name","测试入口","6a537146-c28a-469c-b477-30de85c20936"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/elements] with body: {"using":"name","value":"测试入口"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":[{"ELEMENT":"BA33F6D4-0789-456B-B6C1-3B3964B3FB8F","type":"XCUIElementTypeButton","label":"测试入口"}],"sessionId":"4C47DDE5-DE39-4B3C-88CF-842BB7B124EE","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"BA33F6D4-0789-456B-B6C1-3B3964B3FB8F","type":"XCUIElementTypeButton","label":"测试入口"}]
+[HTTP] <-- POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/elements 200 438 ms - 178 
+[HTTP] --> GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/BA33F6D4-0789-456B-B6C1-3B3964B3FB8F/displayed {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[debug] [XCUITest] Executing command 'proxyReqRes'
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/BA33F6D4-0789-456B-B6C1-3B3964B3FB8F/displayed] to [GET http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/element/BA33F6D4-0789-456B-B6C1-3B3964B3FB8F/displayed] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : true,\n  \"sessionId\" : \"4C47DDE5-DE39-4B3C-88CF-842BB7B124EE\",\n  \"status\" : 0\n}"
+[JSONWP Proxy] Replacing sessionId 4C47DDE5-DE39-4B3C-88CF-842BB7B124EE with 6a537146-c28a-469c-b477-30de85c20936
+[HTTP] <-- GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/BA33F6D4-0789-456B-B6C1-3B3964B3FB8F/displayed 200 184 ms - 76 
+[HTTP] --> GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/screenshot {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[debug] [XCUITest] Executing command 'proxyReqRes'
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/screenshot] to [GET http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/screenshot] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : \"iVBORw0KGgoAAAANSUhEUgAAAu4AAAU2CAYAAADK1zMGAAAAAXNSR0IArs4c6QAA\\r\\nABxpRE9UAAAAAgAAAAAAAAKbAAAAKAAAApsAAAKbAAMdQApTshgAAEAASURBVHgB\\r\\n7L37ry1bVt\\/HXxMTGfKLobEIUWRowJEd8\\/IjlkFgG1tOLBLZBEQeVkQSDJENUuwQ\\r\\nEA3IYFvyi4ZuaGPLAcdAv0gjsAL9AgcIovve7r6Pvu97zj5nub7zzM88Y3+rxpqz\\r\\natXae59z15LW+dYY4zvGfFTNWd9Ve+19Puczn\\/nMQe8XX3jx8NkXP3v47GfrW8fT\\r\\n+8UXXyzv5idecRa3POIgdbBB97\\/wwgsHvUufas3YH49TB\\/9N4PPPP1\\/6KIzH3jZx\\r\\nUPGlY3zCyIn+cx0\\/99xzB72z+sRB5+EHiWODmf+5z0zt6137AXJ9YoNeJ+PhB8l3\\r\\nu\\/in9vFnSL7a5xzF802\\/Pv3pTx\\/0\\/tSnPrXqneVlfup\\/+lNTe3rXdt2G5wi\\/+Z+d\\r\\n+qu39Rves888e3jmmWcOn\\/zkJ+\\/kW31b6p\\/7P\\/GJTxz0fuaTy\\/ybHp\\/3b2v7vToe\\r\\nx3722WcPx97lmuDaqHiMvzZGffKwwSU\\/Po2B4ycdWXdrx0Ee+xY269Zt9xMHiWf1\\r\\n2v7CvgOy\\/xjO6hifdjOkP2DKq3WJO7\\/1u\\/av8Syv+RlHjTMO6jrO8qwd4iD52I7E\\r\\nQeLYoPvpJwgPG74jPMcerxenHu1jg57fs8lruPJ68vpcF\\/hbXc6\\/nUfi8MHMT9wx\\r\\n42d+8j+HiZRwl\\/hFQCOYEcTNfxHuRbBFsdY7RuS50MOP2APhlfjzj0U+8XNgFKRL\\r\\n9YmDzsEPEscGM\\/+dEO7ThwbWQ4ZxHJwnP\\/8...
+[JSONWP Proxy] Replacing sessionId 4C47DDE5-DE39-4B3C-88CF-842BB7B124EE with 6a537146-c28a-469c-b477-30de85c20936
+[HTTP] <-- GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/screenshot 200 62 ms - 355014 
+[HTTP] --> GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/screenshot {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[debug] [XCUITest] Executing command 'proxyReqRes'
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/screenshot] to [GET http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/screenshot] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : \"iVBORw0KGgoAAAANSUhEUgAAAu4AAAU2CAYAAADK1zMGAAAAAXNSR0IArs4c6QAA\\r\\nABxpRE9UAAAAAgAAAAAAAAKbAAAAKAAAApsAAAKbAAMdQApTshgAAEAASURBVHgB\\r\\n7L37ry1bVt\\/HXxMTGfKLobEIUWRowJEd8\\/IjlkFgG1tOLBLZBEQeVkQSDJENUuwQ\\r\\nEA3IYFvyi4ZuaGPLAcdAv0gjsAL9AgcIovve7r6Pvu97zj5nub7zzM88Y3+rxpqz\\r\\natXae59z15LW+dYY4zvGfFTNWd9Ve+19Puczn\\/nMQe8XX3jx8NkXP3v47GfrW8fT\\r\\n+8UXXyzv5idecRa3POIgdbBB97\\/wwgsHvUufas3YH49TB\\/9N4PPPP1\\/6KIzH3jZx\\r\\nUPGlY3zCyIn+cx0\\/99xzB72z+sRB5+EHiWODmf+5z0zt6137AXJ9YoNeJ+PhB8l3\\r\\nu\\/in9vFnSL7a5xzF802\\/Pv3pTx\\/0\\/tSnPrXqneVlfup\\/+lNTe3rXdt2G5wi\\/+Z+d\\r\\n+qu39Rves888e3jmmWcOn\\/zkJ+\\/kW31b6p\\/7P\\/GJTxz0fuaTy\\/ybHp\\/3b2v7vToe\\r\\nx3722WcPx97lmuDaqHiMvzZGffKwwSU\\/Po2B4ycdWXdrx0Ee+xY269Zt9xMHiWf1\\r\\n2v7CvgOy\\/xjO6hifdjOkP2DKq3WJO7\\/1u\\/av8Syv+RlHjTMO6jrO8qwd4iD52I7E\\r\\nQeLYoPvpJwgPG74jPMcerxenHu1jg57fs8lruPJ68vpcF\\/hbXc6\\/nUfi8MHMT9wx\\r\\n42d+8j+HiZRwl\\/hFQCOYEcTNfxHuRbBFsdY7RuS50MOP2APhlfjzj0U+8XNgFKRL\\r\\n9YmDzsEPEscGM\\/+dEO7ThwbWQ4ZxHJwnP\\/8...
+[JSONWP Proxy] Replacing sessionId 4C47DDE5-DE39-4B3C-88CF-842BB7B124EE with 6a537146-c28a-469c-b477-30de85c20936
+[HTTP] <-- GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/screenshot 200 61 ms - 355014 
+[HTTP] --> POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/BA33F6D4-0789-456B-B6C1-3B3964B3FB8F/click {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[debug] [XCUITest] Executing command 'proxyReqRes'
+[debug] [JSONWP Proxy] Proxying [POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/BA33F6D4-0789-456B-B6C1-3B3964B3FB8F/click] to [POST http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/element/BA33F6D4-0789-456B-B6C1-3B3964B3FB8F/click] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: {"status":0,"id":"BA33F6D4-0789-456B-B6C1-3B3964B3FB8F","value":"","sessionId":"4C47DDE5-DE39-4B3C-88CF-842BB7B124EE"}
+[JSONWP Proxy] Replacing sessionId 4C47DDE5-DE39-4B3C-88CF-842BB7B124EE with 6a537146-c28a-469c-b477-30de85c20936
+[HTTP] <-- POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/BA33F6D4-0789-456B-B6C1-3B3964B3FB8F/click 200 1003 ms - 118 
+[HTTP] --> POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/elements {"using":"name","value":"订单管理"}
+[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["name","订单管理","6a537146-c28a-469c-b477-30de85c20936"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/elements] with body: {"using":"name","value":"订单管理"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":[{"ELEMENT":"356130D8-AA97-40BB-8B29-896F1D4B09A1","type":"XCUIElementTypeButton","label":"订单管理"}],"sessionId":"4C47DDE5-DE39-4B3C-88CF-842BB7B124EE","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"356130D8-AA97-40BB-8B29-896F1D4B09A1","type":"XCUIElementTypeButton","label":"订单管理"}]
+[HTTP] <-- POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/elements 200 684 ms - 178 
+[HTTP] --> GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/356130D8-AA97-40BB-8B29-896F1D4B09A1/displayed {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[debug] [XCUITest] Executing command 'proxyReqRes'
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/356130D8-AA97-40BB-8B29-896F1D4B09A1/displayed] to [GET http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/element/356130D8-AA97-40BB-8B29-896F1D4B09A1/displayed] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : false,\n  \"sessionId\" : \"4C47DDE5-DE39-4B3C-88CF-842BB7B124EE\",\n  \"status\" : 0\n}"
+[JSONWP Proxy] Replacing sessionId 4C47DDE5-DE39-4B3C-88CF-842BB7B124EE with 6a537146-c28a-469c-b477-30de85c20936
+[HTTP] <-- GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/356130D8-AA97-40BB-8B29-896F1D4B09A1/displayed 200 279 ms - 77 
+[HTTP] --> GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/356130D8-AA97-40BB-8B29-896F1D4B09A1/displayed {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[debug] [XCUITest] Executing command 'proxyReqRes'
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/356130D8-AA97-40BB-8B29-896F1D4B09A1/displayed] to [GET http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/element/356130D8-AA97-40BB-8B29-896F1D4B09A1/displayed] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : false,\n  \"sessionId\" : \"4C47DDE5-DE39-4B3C-88CF-842BB7B124EE\",\n  \"status\" : 0\n}"
+[JSONWP Proxy] Replacing sessionId 4C47DDE5-DE39-4B3C-88CF-842BB7B124EE with 6a537146-c28a-469c-b477-30de85c20936
+[HTTP] <-- GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/356130D8-AA97-40BB-8B29-896F1D4B09A1/displayed 200 251 ms - 77 
+[HTTP] --> POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/execute {"script":"mobile: scroll","args":[{"direction":"down"}]}
+[debug] [MJSONWP] Calling AppiumDriver.execute() with args: ["mobile: scroll",[{"direction":"down"}],"6a537146-c28a-469c-b477-30de85c20936"]
+[debug] [XCUITest] Executing command 'execute'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/element] with body: {"using":"class name","value":"XCUIElementTypeApplication"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":{"ELEMENT":"55CF2073-0C96-411F-8509-B11528DB095A","type":"XCUIElementTypeApplication","label":"达人店"},"sessionId":"4C47DDE5-DE39-4B3C-88CF-842BB7B124EE","status":0}
+[debug] [JSONWP Proxy] Proxying [POST /uiaElement/55CF2073-0C96-411F-8509-B11528DB095A/scroll] to [POST http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/uiaElement/55CF2073-0C96-411F-8509-B11528DB095A/scroll] with body: {"direction":"down"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":{},"sessionId":"4C47DDE5-DE39-4B3C-88CF-842BB7B124EE","status":0}
+[debug] [MJSONWP] Responding to client with driver.execute() result: null
+[HTTP] <-- POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/execute 200 7241 ms - 76 
+[HTTP] --> GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/356130D8-AA97-40BB-8B29-896F1D4B09A1/displayed {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[debug] [XCUITest] Executing command 'proxyReqRes'
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/356130D8-AA97-40BB-8B29-896F1D4B09A1/displayed] to [GET http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/element/356130D8-AA97-40BB-8B29-896F1D4B09A1/displayed] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : true,\n  \"sessionId\" : \"4C47DDE5-DE39-4B3C-88CF-842BB7B124EE\",\n  \"status\" : 0\n}"
+[JSONWP Proxy] Replacing sessionId 4C47DDE5-DE39-4B3C-88CF-842BB7B124EE with 6a537146-c28a-469c-b477-30de85c20936
+[HTTP] <-- GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/356130D8-AA97-40BB-8B29-896F1D4B09A1/displayed 200 421 ms - 76 
+[HTTP] --> POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/356130D8-AA97-40BB-8B29-896F1D4B09A1/click {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[debug] [XCUITest] Executing command 'proxyReqRes'
+[debug] [JSONWP Proxy] Proxying [POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/356130D8-AA97-40BB-8B29-896F1D4B09A1/click] to [POST http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/element/356130D8-AA97-40BB-8B29-896F1D4B09A1/click] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: {"status":0,"id":"356130D8-AA97-40BB-8B29-896F1D4B09A1","value":"","sessionId":"4C47DDE5-DE39-4B3C-88CF-842BB7B124EE"}
+[JSONWP Proxy] Replacing sessionId 4C47DDE5-DE39-4B3C-88CF-842BB7B124EE with 6a537146-c28a-469c-b477-30de85c20936
+[HTTP] <-- POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/356130D8-AA97-40BB-8B29-896F1D4B09A1/click 200 1221 ms - 118 
+[HTTP] --> POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/elements {"using":"name","value":"我的订单"}
+[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["name","我的订单","6a537146-c28a-469c-b477-30de85c20936"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/elements] with body: {"using":"name","value":"我的订单"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":[{"ELEMENT":"B3F3BDE7-F1C7-4C49-9B8C-FBDC1BA6D193","type":"XCUIElementTypeStaticText","label":null}],"sessionId":"4C47DDE5-DE39-4B3C-88CF-842BB7B124EE","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"B3F3BDE7-F1C7-4C49-9B8C-FBDC1BA6D193","type":"XCUIElementTypeStaticText","label":null}]
+[HTTP] <-- POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/elements 200 643 ms - 172 
+[HTTP] --> GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/B3F3BDE7-F1C7-4C49-9B8C-FBDC1BA6D193/displayed {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[debug] [XCUITest] Executing command 'proxyReqRes'
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/B3F3BDE7-F1C7-4C49-9B8C-FBDC1BA6D193/displayed] to [GET http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/element/B3F3BDE7-F1C7-4C49-9B8C-FBDC1BA6D193/displayed] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : true,\n  \"sessionId\" : \"4C47DDE5-DE39-4B3C-88CF-842BB7B124EE\",\n  \"status\" : 0\n}"
+[JSONWP Proxy] Replacing sessionId 4C47DDE5-DE39-4B3C-88CF-842BB7B124EE with 6a537146-c28a-469c-b477-30de85c20936
+[HTTP] <-- GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/B3F3BDE7-F1C7-4C49-9B8C-FBDC1BA6D193/displayed 200 267 ms - 76 
+[HTTP] --> GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/screenshot {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[debug] [XCUITest] Executing command 'proxyReqRes'
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/screenshot] to [GET http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/screenshot] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : \"iVBORw0KGgoAAAANSUhEUgAAAu4AAAU2CAYAAADK1zMGAAAAAXNSR0IArs4c6QAA\\r\\nABxpRE9UAAAAAgAAAAAAAAKbAAAAKAAAApsAAAKbAAEhojQgnN0AAEAASURBVHgB\\r\\n7J0F3NxE\\/saxYsWhFClQ3F0Ol8PdHQpFCxR3ijsUK37F3d2KFnd3Le7OcXfcHfef\\r\\n\\/36H\\/pbZNMkmu\\/vum7zvM59PNtlkZjJ55snkmV9+MxlttNFGc1qEgTggDogD4oA4\\r\\nIA6IA+KAOFB4DhS+gOpYqHMlDogD4oA4IA6IA+KAOCAOqGeljos4IA6IA+KAOCAO\\r\\niAPigDhQCg6UopDqYamXLQ6IA+KAOCAOiAPigDjQ3Tkg4a4epjggDogD4oA4IA6I\\r\\nA+KAOFACDqiSSlBJ3b13qeuXhUUcEAfEAXFAHBAHxAGJVnVcxAFxQBwQB8QBcUAc\\r\\nEAfEgVJwoBSFVA9LvWxxQBwQB8QBcUAcEAfEge7OAQl39TDFAXFAHBAHxAFxQBwQ\\r\\nB8SBEnBAlVSCSuruvUtdvyws4oA4IA6IA+KAOCAOSLSq4yIOiAPigDggDogD4oA4\\r\\nIA60jwPLLbdco52Q1hVyvPHGc4svvrhfJplkkkYL1JZ000wzjXv11Vfdk08+6Sh3\\r\\n0ck61lhjuVVWWcWdcMIJ7r777nMffvih++mnn9z\\/\\/d\\/\\/+TX\\/2c9x4hG\\/6Nek8rXu\\r\\n3hOWXQvL6aef3t\\/HtFON1G2z6Rs5p9J0LQ6qPlWf7eTA5ptv7p577jmvadA1RVwo\\r\\nH+VsBS7zzDOPO\\/XUUxvNq3ly7rnnnu6NN95wv\\/\\/+ew3Yb7\\/9ttt4440bLViHptti\\r\\niy2qZV166aU79FzNVDIPYCr322+\\/rZY3JLSrhPC\\/bROfdKRv5vxK2\\/z...
+[JSONWP Proxy] Replacing sessionId 4C47DDE5-DE39-4B3C-88CF-842BB7B124EE with 6a537146-c28a-469c-b477-30de85c20936
+[HTTP] <-- GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/screenshot 200 51 ms - 236478 
+[HTTP] --> GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/screenshot {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[debug] [XCUITest] Executing command 'proxyReqRes'
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/screenshot] to [GET http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/screenshot] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : \"iVBORw0KGgoAAAANSUhEUgAAAu4AAAU2CAYAAADK1zMGAAAAAXNSR0IArs4c6QAA\\r\\nABxpRE9UAAAAAgAAAAAAAAKbAAAAKAAAApsAAAKbAAEhojQgnN0AAEAASURBVHgB\\r\\n7J0F3NxE\\/saxYsWhFClQ3F0Ol8PdHQpFCxR3ijsUK37F3d2KFnd3Le7OcXfcHfef\\r\\n\\/36H\\/pbZNMkmu\\/vum7zvM59PNtlkZjJ55snkmV9+MxlttNFGc1qEgTggDogD4oA4\\r\\nIA6IA+KAOFB4DhS+gOpYqHMlDogD4oA4IA6IA+KAOCAOqGeljos4IA6IA+KAOCAO\\r\\niAPigDhQCg6UopDqYamXLQ6IA+KAOCAOiAPigDjQ3Tkg4a4epjggDogD4oA4IA6I\\r\\nA+KAOFACDqiSSlBJ3b13qeuXhUUcEAfEAXFAHBAHxAGJVnVcxAFxQBwQB8QBcUAc\\r\\nEAfEgVJwoBSFVA9LvWxxQBwQB8QBcUAcEAfEge7OAQl39TDFAXFAHBAHxAFxQBwQ\\r\\nB8SBEnBAlVSCSuruvUtdvyws4oA4IA6IA+KAOCAOSLSq4yIOiAPigDggDogD4oA4\\r\\nIA60jwPLLbdco52Q1hVyvPHGc4svvrhfJplkkkYL1JZ000wzjXv11Vfdk08+6Sh3\\r\\n0ck61lhjuVVWWcWdcMIJ7r777nMffvih++mnn9z\\/\\/d\\/\\/+TX\\/2c9x4hG\\/6Nek8rXu\\r\\n3hOWXQvL6aef3t\\/HtFON1G2z6Rs5p9J0LQ6qPlWf7eTA5ptv7p577jmvadA1RVwo\\r\\nH+VsBS7zzDOPO\\/XUUxvNq3ly7rnnnu6NN95wv\\/\\/+ew3Yb7\\/9ttt4440bLViHptti\\r\\niy2qZV166aU79FzNVDIPYCr322+\\/rZY3JLSrhPC\\/bROfdKRv5vxK2\\/z...
+[JSONWP Proxy] Replacing sessionId 4C47DDE5-DE39-4B3C-88CF-842BB7B124EE with 6a537146-c28a-469c-b477-30de85c20936
+[HTTP] <-- GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/screenshot 200 48 ms - 236478 
+[HTTP] --> POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/B3F3BDE7-F1C7-4C49-9B8C-FBDC1BA6D193/click {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[debug] [XCUITest] Executing command 'proxyReqRes'
+[debug] [JSONWP Proxy] Proxying [POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/B3F3BDE7-F1C7-4C49-9B8C-FBDC1BA6D193/click] to [POST http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/element/B3F3BDE7-F1C7-4C49-9B8C-FBDC1BA6D193/click] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: {"status":0,"id":"B3F3BDE7-F1C7-4C49-9B8C-FBDC1BA6D193","value":"","sessionId":"4C47DDE5-DE39-4B3C-88CF-842BB7B124EE"}
+[JSONWP Proxy] Replacing sessionId 4C47DDE5-DE39-4B3C-88CF-842BB7B124EE with 6a537146-c28a-469c-b477-30de85c20936
+[HTTP] <-- POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/B3F3BDE7-F1C7-4C49-9B8C-FBDC1BA6D193/click 200 1234 ms - 118 
+[HTTP] --> POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/elements {"using":"xpath","value":"//XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeTable[1]/XCUIElementTypeCell[4]/XCUIElementTypeStaticText[5]"}
+[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["xpath","//XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeTable[1]/XCUIElementTypeCell[4]/XCUIElementTypeStaticText[5]","6a537146-c28a-469c-b477-30de85c20936"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/elements] with body: {"using":"xpath","value":"//XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeTable[1]/XCUIElementTypeCell[4]/XCUIElementTypeStaticText[5]"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":[{"ELEMENT":"3605D8D6-7B70-49EA-BDD0-C945B6074C04","type":"XCUIElementTypeStaticText","label":null}],"sessionId":"4C47DDE5-DE39-4B3C-88CF-842BB7B124EE","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"3605D8D6-7B70-49EA-BDD0-C945B6074C04","type":"XCUIElementTypeStaticText","label":null}]
+[HTTP] <-- POST /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/elements 200 2984 ms - 172 
+[HTTP] --> GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/3605D8D6-7B70-49EA-BDD0-C945B6074C04/displayed {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[debug] [XCUITest] Executing command 'proxyReqRes'
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/3605D8D6-7B70-49EA-BDD0-C945B6074C04/displayed] to [GET http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/element/3605D8D6-7B70-49EA-BDD0-C945B6074C04/displayed] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : true,\n  \"sessionId\" : \"4C47DDE5-DE39-4B3C-88CF-842BB7B124EE\",\n  \"status\" : 0\n}"
+[JSONWP Proxy] Replacing sessionId 4C47DDE5-DE39-4B3C-88CF-842BB7B124EE with 6a537146-c28a-469c-b477-30de85c20936
+[HTTP] <-- GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/3605D8D6-7B70-49EA-BDD0-C945B6074C04/displayed 200 287 ms - 76 
+[HTTP] --> GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/3605D8D6-7B70-49EA-BDD0-C945B6074C04/attribute/value {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[debug] [XCUITest] Executing command 'proxyReqRes'
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/3605D8D6-7B70-49EA-BDD0-C945B6074C04/attribute/value] to [GET http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE/element/3605D8D6-7B70-49EA-BDD0-C945B6074C04/attribute/value] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : \"8148947838337019\",\n  \"sessionId\" : \"4C47DDE5-DE39-4B3C-88CF-842BB7B124EE\",\n  \"status\" : 0\n}"
+[JSONWP Proxy] Replacing sessionId 4C47DDE5-DE39-4B3C-88CF-842BB7B124EE with 6a537146-c28a-469c-b477-30de85c20936
+[HTTP] <-- GET /wd/hub/session/6a537146-c28a-469c-b477-30de85c20936/element/3605D8D6-7B70-49EA-BDD0-C945B6074C04/attribute/value 200 354 ms - 90 
+[BaseDriver] Shutting down because we waited 3600 seconds for a command
+[debug] [JSONWP Proxy] Proxying [DELETE /session/6a537146-c28a-469c-b477-30de85c20936] to [DELETE http://localhost:8100/session/4C47DDE5-DE39-4B3C-88CF-842BB7B124EE] with no body
+[Appium] Closing session, cause was 'New Command Timeout of 3600 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+[Appium] Removing session 6a537146-c28a-469c-b477-30de85c20936 from our master session list
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n\n  },\n  \"sessionId\" : \"460BFB45-43A7-44BC-AC7D-41B88CF22AB7\",\n  \"status\" : 0\n}"
+[XCUITest] Shutting down sub-processes
+[XCUITest] Shutting down xcodebuild process (pid 31530)
+[XCUITest] xcodebuild exited with code 'null' and signal 'SIGTERM'
+[XCUITest] Shutting down Logger process (pid 31543)
+[XCUITest] Simulator log exited with code 'null'
+[debug] [XCUITest] Reset not set, not ending sim
+[debug] [iOSLog] Stopping iOS log capture
