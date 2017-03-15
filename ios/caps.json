@@ -7,5 +7,5 @@
   "automationName": "xcuitest",
   "newCommandTimeout": 3600,
   "noReset": true,
-  "app": "/Users/showjoy/Library/Developer/Xcode/DerivedData/DaRenShop-aisxxdloxwxcqmdjhesjxorxojoc/Build/Products/Debug-iphonesimulator/DaRenShop.app"
+  "app": "http://10.1.2.59:8110/ios"
 }
