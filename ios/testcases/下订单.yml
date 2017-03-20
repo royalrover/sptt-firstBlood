@@ -3,6 +3,7 @@
   config:
     timeout: 200000
     caps: ios/caps.json
+
   下订单流程:
     - LoginSteps | login
     - BuySteps | enter my shop and buy sth

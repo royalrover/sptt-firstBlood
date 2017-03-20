@@ -1,0 +1,7 @@
+---
+LoginAtoms:
+  login with username:
+    ui_name: 账号登录
+    ui_action: click
+    expectation_name: 微信登录
+    expectation_type: none

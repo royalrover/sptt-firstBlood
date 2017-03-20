@@ -19,10 +19,10 @@ ActionAtoms:
   swipe down:
     ui_action: swipe
     data:
-      startX: 275
-      startY: 700
-      offsetX: 275
-      offsetY: -500
+      sxRatio: 0.5
+      syRatio: 0.8
+      exRatio: 0.5
+      eyRatio: 0.1
       duration: 400
 
   get orderId:

@@ -1,0 +1,8 @@
+---
+SchollYardSteps:
+  actions in paper:
+    - InstituteAtoms | go institute
+    - InstituteAtoms | newer compass
+    - InstituteAtoms | time of the paper
+    - InstituteAtoms | author of the paper
+    - ActionAtoms | swipe down

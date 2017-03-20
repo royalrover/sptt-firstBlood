@@ -39,3 +39,12 @@ TestUIAtoms:
     ui_name: 我的订单
     ui_action: click
     sleep: 8000
+
+  enter info of goods:
+    ui_className: Link|0
+    ui_action: click
+    sleep: 1000
+
+  modify the address:
+    ui_className: Link|1
+    ui_action: click

@@ -1,35 +1,18 @@
 info sptt: kill the old appium process
 info sptt: after kill the load process, start the new one
 info 准备运行环境
-info sptt: get appium config in local
+info sptt: get appium config in cloud
 info sptt: create a new client
-warn sptt: current element[Allow](id) is null, so click is not done
-warn sptt: current element[//XCUIElementTypeOther/XCUIElementTypeTextField[1]](xpath) is null, so type action is not done
-warn sptt: current element[完成](name) is null, so click is not done
-warn sptt: current element[//XCUIElementTypeOther/XCUIElementTypeTextField[2]](xpath) is null, so type action is not done
-warn sptt: current element[完成](name) is null, so click is not done
-warn sptt: current element[登录](name) is null, so click is not done
-info sptt: begin click element[//XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther[4]](xpath)
-info sptt: begin click element[测试入口](name)
-info sptt: sleeping 1000ms
+info sptt: begin click element[//XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[3]](xpath)
+info sptt: begin click element[Link|0](className)
 info sptt: begin scrollToView[↓]
-info sptt: begin click element[我的店铺](name)
-info sptt: begin click element[Button|1](className)
-info sptt: sleeping 3000ms
-info sptt: begin click element[立即购买](name)
-info sptt: sleeping 2000ms
-info sptt: begin click element[提交订单](name)
-info sptt: sleeping 8000ms
-info sptt: begin click element[返回上一级](accessibilityId)
-info sptt: begin click element[关闭](name)
-info sptt: begin click element[回到首页](accessibilityId)
-info sptt: begin click element[//XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther[4]](xpath)
-info sptt: begin click element[测试入口](name)
-info sptt: sleeping 1000ms
-info sptt: begin scrollToView[↓]
-info sptt: begin click element[订单管理](name)
-info sptt: sleeping 8000ms
-info sptt: begin click element[我的订单](name)
-info sptt: sleeping 8000ms
-info sptt: begin get element[//XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeTable[1]/XCUIElementTypeCell[4]/XCUIElementTypeStaticText[5]](xpath)'s value
+info sptt: again scrollToView[↓]
+info sptt: last scrollToView[↓]
+info sptt: begin scrollToView[↑]
+info sptt: again scrollToView[↑]
+info sptt: begin get element[StaticText|3](className)'s value
+info sptt: the value is: 2016-09-30
+info sptt: begin get element[StaticText|4](className)'s value
+info sptt: the value is: 尚妆达人店
+info sptt: begin swipe page from [187,533] to [187.5,66.7] during 400
 info sptt: now you can visit the reporter by the browser

@@ -37,3 +37,9 @@ BuySteps:
     - TestUIAtoms | enter my shop
     - TestUIAtoms | enter an hot sale's information
     - ActionAtoms | return homepage
+
+  test swipe:
+    - TestUIAtoms | enter my tab
+    - TestUIAtoms | enter test entry
+    - ActionAtoms | swipe down
+    - ActionAtoms | swipe down

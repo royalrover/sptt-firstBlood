@@ -1,0 +1,8 @@
+---
+交易链路:
+  config:
+    timeout: 200000
+    caps: ios/caps.json
+
+  测试webview:
+    - SchollYardSteps | actions in paper
