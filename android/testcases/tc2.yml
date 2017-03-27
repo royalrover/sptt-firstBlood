@@ -5,6 +5,6 @@
     timeout: 200000
     caps: android/caps.json
 
-  1st of testcases:
+  支付订单:
     - DemoSteps | login
-    - DemoSteps | buy
+    - DemoSteps | pay

@@ -1,0 +1,51 @@
+---
+ShopAtoms2('针对线上测试版本'):
+  swipe down:
+    ui_action: swipe
+    data:
+      sxRatio: 0.5
+      syRatio: 0.8
+      exRatio: 0.5
+      eyRatio: 0.1
+      duration: 400
+
+  close alert:
+    ui_xpath: //android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]/android.widget.TextView[2]
+    ui_action: click
+
+  go to my shop:
+    ui_xpath: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[1]/android.support.v4.view.ViewPager[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[1]/android.widget.ListView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[2]/android.widget.LinearLayout[3]
+    ui_action: click
+    sleep: 2000
+
+  clear mask:
+    ui_xpath: //android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[1]/android.widget.ImageView[1]
+    ui_action: click
+
+  browser the hot sale:
+    ui_className: android.view.View|2
+    ui_action: click
+
+  buy the host sale:
+    ui_xpath: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/android.widget.LinearLayout[1]/android.widget.LinearLayout[3]/android.widget.LinearLayout[1]
+    ui_action: click
+
+  submit the order:
+    ui_css: a.submit-btn
+    ui_action: click
+    sleep: 2000
+    expectation_xpath:  //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.widget.TextView[2]
+    expectation_type: exist
+
+  backward:
+    ui_className: android.widget.LinearLayout|3
+    ui_action: click
+    sleep: 2000
+
+  close webview:
+    ui_xpath: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[1]/android.widget.TextView[1]
+    ui_action: click
+
+  go homepage:
+    ui_xpath: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[2]
+    ui_action: click

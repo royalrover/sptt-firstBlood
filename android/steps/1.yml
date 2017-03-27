@@ -1,4 +1,37 @@
 ---
 DemoSteps:
   login:
+    - LoginAtoms | sleep
     - LoginAtoms | login with username
+    - LoginAtoms | click login button
+  buy:
+    - ShopAtoms | swipe down
+    - ShopAtoms | go to my shop
+    - ShopAtoms | browser the hot sale
+    - ShopAtoms |buy the host sale
+    - ShopAtoms | submit the order
+    - ShopAtoms | backward
+    - ShopAtoms | close webview
+    - ShopAtoms | go homepage
+
+  buy2:
+      - ShopAtoms | close alert
+      - ShopAtoms | go to my shop
+      - ShopAtoms | clear mask
+      - ShopAtoms | browser the hot sale
+      - ShopAtoms |buy the host sale
+      - ShopAtoms | submit the order
+      - ShopAtoms | backward
+      - ShopAtoms | close webview
+      - ShopAtoms | go homepage
+
+  pay:
+    - PayAtoms | go to homepage from test
+    - PayAtoms | close alert of new version
+    - PayAtoms | mine tab from homepage
+    - PayAtoms | my orderlist
+    - PayAtoms | fake pay of android:
+        params:
+          idid: PayAtoms | get first order id
+          x_request: 11232123
+          ticket: tgc=bsK6KS0wQi;um_remember="5385980EA93F8265018C9FCD285B8ED7:2E175E4D7F73DDD96CC2524B965E12A6:CC1F08AA5F8A0FA68B8D3532EA3C68AC";

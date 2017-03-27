@@ -1,7 +1,15 @@
 ---
 LoginAtoms:
-  login with username:
-    ui_name: 账号登录
+  sleep:
+    ui_id: mmmm
     ui_action: click
-    expectation_name: 微信登录
-    expectation_type: none
+    sleep: 5000
+
+  login with username:
+    ui_className: android.widget.TextView|4
+    ui_action: click
+
+  click login button:
+    ui_xpath: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[2]/android.widget.LinearLayout[1]
+    ui_action: click
+    sleep: 5000
