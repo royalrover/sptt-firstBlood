@@ -1,0 +1,16 @@
+---
+邀请注册开店用例:
+
+  config:
+    timeout: 300000
+    caps: android/caps.json
+
+  注册开店并支付:
+    - RegisterSteps | register and auth
+    - RegisterSteps | check account flow
+    # 开店完成后退出当前账号
+    - RegisterSteps | logout from homepage
+
+  开店完成后切换账号检查收益:
+    - IncomeSteps | 以joy身份登录达人店检查收益
+    - IncomeSteps | 以joy身份登录达人店查看消息推送

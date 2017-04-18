@@ -1,0 +1,27 @@
+---
+IncomeSteps:
+  以joy身份登录达人店检查收益:
+    # 关闭新版本弹窗
+    - PayAtoms | close alert of new version
+    - LoginAtoms | login with username
+    - LoginAtoms | click login button
+    - ShopAtoms | go homepage from test page
+    - PayAtoms | close alert of new version
+    - PayAtoms | 点击初次进入首页的指示内容
+    - PayAtoms | 从首页进入收益界面
+    - PayAtoms | 关闭首次进入收益页面的收益规则说明弹窗
+    # 进入收益明细页面，查看是否新增收益
+    - PayAtoms | 进入收益明细页面
+
+    # 退出到首页
+    - PayAtoms | 从收益明细页面退出（关闭webview）
+    - PayAtoms | 从收益界面退出到首页
+    - PayAtoms | close alert of new version
+
+  以joy身份登录达人店查看消息推送:
+    # 收益查看完毕，进入"消息通知"检查消息发送
+    - PayAtoms | mine tab from homepage
+    - MineTabAtoms | 进入消息通知
+    - MessageNotifyAtoms | 查看首个通知项是否是纳新收益
+
+

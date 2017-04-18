@@ -7,15 +7,23 @@ BuySteps:
     - TestUIAtoms | enter an hot sale's information
     - TestUIAtoms | buy now
     - TestUIAtoms | submit order
+  
+  enter my shop directly and buy sth:
+    - TestUIAtoms | enter shop directly
+    - TestUIAtoms | enter an hot sale's information
+    - TestUIAtoms | buy now
+    - TestUIAtoms | submit order
+
 
   fake pay the order:
     - ActionAtoms | backward
     - ActionAtoms | close webview
     - ActionAtoms | return homepage
     - TestUIAtoms | enter my tab
-    - TestUIAtoms | enter test entry
-    - TestUIAtoms | order management
-    - TestUIAtoms | my orders
+  #  - TestUIAtoms | enter test entry
+  #  - TestUIAtoms | order management
+  #  - TestUIAtoms | my orders
+    - TestUIAtoms | enter my order list
     - ActionAtoms | fake pay:
         params:
           idid: ActionAtoms | get orderId
@@ -43,3 +51,6 @@ BuySteps:
     - TestUIAtoms | enter test entry
     - ActionAtoms | swipe down
     - ActionAtoms | swipe down
+
+  enter order management:
+    - TestUIAtoms | enter order management

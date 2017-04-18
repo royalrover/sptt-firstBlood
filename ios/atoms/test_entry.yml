@@ -1,5 +1,45 @@
 ---
 TestUIAtoms:
+  # 订单管理
+  enter order management:
+    ui_action: clickWithCoordinate
+    data:
+      x: 20
+      y: 300
+  # 进入 家族成员
+  enter my family:
+    ui_action: clickWithCoordinate
+    data:
+      x: 120
+      y: 300
+  # 直接从首页进入我的店铺
+  enter shop directly:
+    ui_action: clickWithCoordinate
+    data:
+      x: 200
+      y: 300
+  # 邀请好友
+  invite friends:
+    ui_action: clickWithCoordinate
+    data:
+      x: 300
+      y: 300
+
+  # 我的tab页面中， 进入 我的订单
+  enter my order list:
+    ui_action: clickWithCoordinate
+    data:
+      x: 95
+      y: 275
+    sleep: 5000
+
+# 我的tab页面中， 进入 购物车
+  my cart:
+    ui_action: clickWithCoordinate
+    data:
+      x: 283
+      y: 275
+
   enter my tab:
     ui_xpath: //XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther[4]
     ui_action: click

@@ -1,5 +1,8 @@
 ---
 LoginAtoms:
+  remove app:
+    ui_action: removeApp
+    data: com.showjoy.shop
   sleep:
     ui_id: mmmm
     ui_action: click
@@ -13,3 +16,168 @@ LoginAtoms:
     ui_xpath: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[2]/android.widget.LinearLayout[1]
     ui_action: click
     sleep: 5000
+
+  logout:
+    ui_xpath: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[1]/android.support.v4.view.ViewPager[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.TextView[1]
+    ui_action: click
+    sleep: 2000
+
+  register shop:
+    ui_className: android.widget.LinearLayout | 3
+    ui_action: click
+    sleep: 12000
+
+  # 在微信授权页面
+  wechat auth:
+    ui_action: clickWithCoordinate
+    data:
+      x: 540
+      y: 1190
+    sleep: 8000
+
+  input tel:
+    ui_css: input.j_InputPhone
+    ui_action: type
+    data: 15168253213
+
+  click verify button after input tel:
+    ui_css: div.j_VerifyBtn
+    ui_action: click
+    sleep: 2000
+
+  go to register:
+    ui_css: a.j_OpenShopBtn
+    ui_action: click
+    sleep: 800
+
+  input an invite code:
+    ui_className: android.widget.EditText|0
+    ui_action: type
+    data: xb547784
+
+  click the button of open a shop:
+    ui_xpath: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[3]/android.widget.LinearLayout[1]
+    ui_action: click
+    sleep: 5000
+
+  input tel with phone:
+    ui_css: .bind-area>.mobile-form>.field>.input
+    ui_action: type
+    data: 15168253213
+
+  click the button of get captcha:
+    ui_css: .getchk-btn
+    ui_action: click
+
+  input captcha:
+    ui_css: .field>.checkcode>.checkcode-left>input
+    ui_action: captcha
+    data:
+      tel: 15168253213
+    sleep: 2000
+
+  click the bind button:
+    ui_css: .j_BindPhoneBtn
+    ui_action: click
+    sleep: 5000
+
+  # 开店支付部分
+  选择开店礼包:
+    ui_css: .j_GiftItem:nth-child(2)
+    ui_action: click
+    sleep: 1000
+
+  # 填写姓名
+  填写姓名:
+    ui_css: input.j_Name
+    ui_action: type
+    data: abc
+
+  填写手机号码:
+    ui_css: input.j_Telephone
+    ui_action: type
+    data: 15168253213
+
+  # 需要向下滑动页面
+  # 默认需要填写礼包收货地址，但是该页面属于html5页面，填写表单较为复杂，因此需要首先提供收货地址，省略该步骤的自动化
+  触发城市选择框:
+    ui_css: .j_CitySelect
+    ui_action: click
+
+  选择收货地址:
+    ui_action: swipe
+    data:
+      sxRatio: 0.22
+      syRatio: 0.86
+      exRatio: 0.22
+      eyRatio: 0.8
+      duration: 400
+
+  点击确认收货地址:
+    ui_css: header.bar-nav>.button
+    ui_action: click
+    sleep: 300
+
+  填写详细收货地址:
+    ui_css: input.j_AddressDetail
+    ui_action: type
+    data: ddss
+
+  # 点击支付开店费用
+  支付开店费用:
+    ui_css: .j_Pay
+    ui_action: click
+    sleep: 500
+
+  # 支付，默认使用支付宝
+  # 唤起支付宝需要提供相关权限，在华为手机中默认15s内给予授权，因此在此睡眠20s
+  点击支付宝支付:
+    ui_xpath: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[2]
+    ui_action: click
+    sleep: 20000
+
+  唤起支付宝支付:
+    ui_xpath: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[3]/android.widget.FrameLayout[3]/android.widget.FrameLayout[1]
+    ui_action: click
+    sleep: 2000
+
+  输入支付密码1:
+    ui_xpath: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[3]/android.widget.TextView[3]
+    ui_action: click
+    sleep: 100
+  输入支付密码2:
+    ui_xpath: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[4]/android.widget.TextView[2]
+    ui_action: click
+    sleep: 100
+  输入支付密码3:
+    ui_xpath: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[4]/android.widget.TextView[2]
+    ui_action: click
+    sleep: 100
+  输入支付密码4:
+    ui_xpath: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.TextView[1]
+    ui_action: click
+    sleep: 100
+  输入支付密码5:
+    ui_xpath: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[4]/android.widget.TextView[2]
+    ui_action: click
+    sleep: 100
+  输入支付密码6:
+    ui_xpath: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/android.widget.TextView[3]
+    ui_action: click
+    sleep: 5000
+
+  输入店主昵称:
+    ui_xpath: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/android.widget.RelativeLayout[2]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[1]/android.widget.EditText[1]
+    ui_action: type
+    data: autotest
+
+  输入店铺名称:
+    ui_xpath: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/android.widget.RelativeLayout[3]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[1]/android.widget.EditText[1]
+    ui_action: type
+    # <%%>内部执行JavaScript表达式
+    data: <%String(Date.now()).slice(0,10)%>
+
+  点击完成开店流程:
+    ui_xpath: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[3]/android.widget.LinearLayout[1]
+    ui_action: click
+    sleep: 2000

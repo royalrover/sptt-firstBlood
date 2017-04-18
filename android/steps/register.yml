@@ -1,0 +1,54 @@
+---
+RegisterSteps:
+  logout from homepage:
+    - PayAtoms | close alert of new version
+    - PayAtoms | 点击初次进入首页的指示内容
+    - PayAtoms | mine tab from homepage
+    - ShopAtoms | swipe down
+    - LoginAtoms | logout
+
+  register and auth:
+    - LoginAtoms | sleep
+    - LoginAtoms | register shop
+    - LoginAtoms | wechat auth
+
+  check account flow:
+    # in webview
+  #  - LoginAtoms | input tel
+  #  - LoginAtoms | click verify button after input tel
+    # 在弹框中点击进入正式开店流程
+  #  - LoginAtoms | go to register
+    # 输入验证码
+    - LoginAtoms | input an invite code
+    - LoginAtoms | click the button of open a shop
+    - LoginAtoms | input tel with phone
+    - LoginAtoms | click the button of get captcha
+    - LoginAtoms | input captcha
+    - LoginAtoms | click the bind button
+    - LoginAtoms | 选择开店礼包
+    - ShopAtoms | swipe down
+    - LoginAtoms | 填写姓名
+    - LoginAtoms | 填写手机号码
+    # 城市选择
+    - LoginAtoms | 触发城市选择框
+    - LoginAtoms | 选择收货地址
+    - LoginAtoms | 点击确认收货地址
+
+    - LoginAtoms | 填写详细收货地址
+
+    # 点击支付
+    - LoginAtoms | 支付开店费用
+    - LoginAtoms | 点击支付宝支付
+    - LoginAtoms | 唤起支付宝支付
+    # 输入密码
+    - LoginAtoms | 输入支付密码1
+    - LoginAtoms | 输入支付密码2
+    - LoginAtoms | 输入支付密码3
+    - LoginAtoms | 输入支付密码4
+    - LoginAtoms | 输入支付密码5
+    - LoginAtoms | 输入支付密码6
+    - LoginAtoms | 输入店主昵称
+    - LoginAtoms | 输入店铺名称
+    - LoginAtoms | 点击完成开店流程
+
+

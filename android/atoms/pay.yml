@@ -5,8 +5,40 @@ PayAtoms:
     ui_xpath: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.support.v4.view.ViewPager[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.Button[2]
     ui_action: click
 
+  从首页进入收益界面:
+    ui_action:  clickWithCoordinate
+    data:
+      x: 810
+      y: 880
+    sleep: 1000
+
+  从收益界面退出到首页:
+    ui_xpath: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]/android.widget.ScrollView[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[1]
+    ui_action: click
+
+  关闭首次进入收益页面的收益规则说明弹窗:
+    ui_xpath: //android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.TextView[2]
+    ui_action: click
+
+  进入收益明细页面:
+    ui_xpath: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]/android.widget.ScrollView[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[1]
+    ui_action: click
+    sleep: 10000
+    expectation_css: .income-detail-item:nth-child(1) .comm-info #获取文本"家族纳新收益。。。"
+    expectation_type: contain
+    expectation_data: 家族纳新奖励收益
+
+  从收益明细页面退出（关闭webview）:
+    ui_xpath: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[1]/android.widget.TextView[1]
+    ui_action: click
+
+
   close alert of new version:
     ui_xpath: //android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]/android.widget.TextView[2]
+    ui_action: click
+
+  点击初次进入首页的指示内容:
+    ui_xpath: //android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]
     ui_action: click
 
   order list from homepage:
@@ -14,7 +46,7 @@ PayAtoms:
     ui_action: click
 
   mine tab from homepage:
-    ui_xpath: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[4]
+    ui_xpath: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[3]
     ui_action: click
 
   my orderlist:

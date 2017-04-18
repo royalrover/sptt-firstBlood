@@ -2,10 +2,11 @@
   "appium-version": "1.6.3",
   "platformName": "iOS",
   "platformVersion": "10.2",
-  "deviceName": "iPhone 7",
+  "deviceName": "iPhone 6 Plus",
+  "bundleId": "com.showjoy.shop",
+  "udid": "39ad0713de276e7dbeda619a0c99a0a5b4c4b931",
   "autoAcceptAlerts": true,
   "automationName": "xcuitest",
   "newCommandTimeout": 3600,
-  "noReset": true,
-  "app": "http://shop.showjoy.net/autotest/ios/0.0.3/DaRenShop.zip"
+  "noReset": true
 }

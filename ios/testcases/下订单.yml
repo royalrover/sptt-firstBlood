@@ -6,7 +6,7 @@
 
   下订单流程:
     - LoginSteps | login
-    - BuySteps | enter my shop and buy sth
+    - BuySteps | enter my shop directly and buy sth #enter my shop and buy sth
 
   支付流程:
     - BuySteps | fake pay the order

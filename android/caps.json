@@ -2,10 +2,13 @@
   "appium-version": "1.6.3",
   "platformName": "Android",
   "deviceName": "darendian",
-  "app": "/Users/showjoy/github/telentshop/shopandroid/build/outputs/apk/shopandroid-forTest.apk",
-  "noReset": true,
+  "app": "https://wireless-build.showjoy.net/job/ShopAndroid-develop/283/artifact/outputs/apk/shopandroid-2.0.1.1-forTest-20170413104803.apk",
+  "fullReset": true,
   "appPackage": "com.showjoy.shop",
   "appActivity": ".module.splash.SplashActivity",
   "appWaitActivity": "com.showjoy.shop.module.login.LoginActivity",
+  "unicodeKeyboard": true,
+  "resetKeyboard": true,
+  "recreateChromeDriverSessions": true,
   "newCommandTimeout": 3600
 }
